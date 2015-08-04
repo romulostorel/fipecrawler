@@ -1,6 +1,7 @@
 require 'data_mapper'
 require './lib/models'
+require './lib/catcher'
 require './lib/db_connector'
 
-module FipeCrawler
+class FipeCrawler
 end
