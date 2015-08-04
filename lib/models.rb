@@ -10,5 +10,3 @@ module FipeCrawler
     DataMapper.finalize
   end
 end
-
-
