@@ -15,6 +15,7 @@ GEM
       dm-transactions (~> 1.2.0)
       dm-types (~> 1.2.0)
       dm-validations (~> 1.2.0)
+    diff-lcs (1.2.5)
     dm-aggregates (1.2.0)
       dm-core (~> 1.2.0)
     dm-constraints (1.2.0)
@@ -47,6 +48,19 @@ GEM
     json (1.8.3)
     json_pure (1.8.2)
     multi_json (1.11.2)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.2)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
     stringex (1.5.1)
     uuidtools (2.1.5)
 
@@ -55,3 +69,4 @@ PLATFORMS
 
 DEPENDENCIES
   data_mapper
+  rspec
