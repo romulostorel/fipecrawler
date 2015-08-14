@@ -24,8 +24,8 @@ class Importer::Brand
     end
   end
 
-  def create_brand(name, value)
-    model.create(name: name, value: value)
+  def create_brand(name, id)
+    model.create(name: name, id: id)
   end
 
   def brands
