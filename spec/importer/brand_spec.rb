@@ -19,6 +19,8 @@ RSpec.describe Importer::Brand do
   end
 
   it 'check last brand' do
-    expect(Models::Brand.last.name).to eq 'Walk'
+    subject.import
+
+    expect(Models::Brand.last.name).to eq 'GEELY'
   end
 end
