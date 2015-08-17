@@ -19,11 +19,15 @@ class Catcher::Vehicle
   protected
 
   def vehicles
-    brands.map{|b| get_json(b.id)}
+    brands.map{|b| parse_json(b.id)}
   end
 
   def get_json(brand_id)
-    JSON.parse(post(params: { 'codigoTabelaReferencia' => 182, 'codigoTipoVeiculo' => 1, 'codigoMarca' => brand_id } ).body.force_encoding("UTF-8")).merge(:brand_id => brand_id)
+    post(params: { 'codigoTabelaReferencia' => 182, 'codigoTipoVeiculo' => 1, 'codigoMarca' => brand_id } ).body.force_encoding("UTF-8")
+  end
+
+  def parse_json(brand_id)
+    JSON.parse(get_json(brand_id)).merge(:brand_id => brand_id)
   end
 
   def post(params:)
