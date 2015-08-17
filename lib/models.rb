@@ -11,7 +11,7 @@ module Models
 
     property :id,        Integer, key: true
     property :name,      String
-    property :brand_id,  Integer
+    belongs_to :brand
   end
 
   DataMapper.finalize
