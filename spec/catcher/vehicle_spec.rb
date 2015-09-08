@@ -23,12 +23,16 @@ RSpec.describe Catcher::Vehicle do
   subject { described_class.new }
 
   before do
-    Importer::Brand.import
+    VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
+      Importer::Brand.import
+    end
   end
 
   it 'get all brands json' do
-    subject.brands = Models::Brand.all(limit: 1)
+    VCR.use_cassette('vehicles') do
+      subject.brands = Models::Brand.all(limit: 1)
 
-    expect(subject.catch).to eq brand_json
+      expect(subject.catch).to eq brand_json
+    end
   end
 end
