@@ -31,10 +31,19 @@ class Catcher::Vehicle
   end
 
   def post(params:)
-    Net::HTTP.post_form(uri, params)
+    req = Net::HTTP::Post.new(uri.path)
+    req.set_form_data(params)
+    req['Referer'] = referer
+    res = Net::HTTP.start(uri.hostname, uri.port) do |http|
+      http.request(req)
+    end
   end
 
   def uri
     URI('http://www.fipe.org.br/IndicesConsulta-ConsultarModelos')
+  end
+
+  def referer
+    'http://www.fipe.org.br/pt-br/indices/veiculos/'
   end
 end
