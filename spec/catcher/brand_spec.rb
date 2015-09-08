@@ -9,6 +9,8 @@ RSpec.describe Catcher::Brand do
   subject { described_class }
 
   it 'get all brands json' do
-    expect(subject.catch).to eq brand_json
+    VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
+      expect(subject.catch).to eq brand_json
+    end
   end
 end

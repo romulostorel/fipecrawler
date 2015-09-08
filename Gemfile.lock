@@ -9,6 +9,8 @@ GEM
       columnize (= 0.9.0)
     coderay (1.1.0)
     columnize (0.9.0)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
     data_mapper (1.2.0)
       dm-aggregates (~> 1.2.0)
       dm-constraints (~> 1.2.0)
@@ -85,6 +87,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
+    safe_yaml (1.0.4)
     simplecov (0.10.0)
       docile (~> 1.1.0)
       json (~> 1.8)
@@ -93,6 +96,10 @@ GEM
     slop (3.6.0)
     stringex (1.5.1)
     uuidtools (2.1.5)
+    vcr (2.9.3)
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
@@ -105,3 +112,8 @@ DEPENDENCIES
   pry-byebug
   rspec
   simplecov
+  vcr
+  webmock
+
+BUNDLED WITH
+   1.10.6

@@ -7,12 +7,17 @@ RSpec.describe Importer::Vehicle do
   subject { described_class }
 
   before do
-    Importer::Brand.import
+    VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
+      Importer::Brand.import
+    end
+
     allow(Models::Brand).to receive(:all).and_return(Models::Brand.all(limit: 2))
   end
 
   it 'check first vehicle' do
-    subject.import
+    VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
+      subject.import
+    end
 
     expect(Models::Vehicle.first.name).to eq 'Integra GS 1.8'
     expect(Models::Vehicle.first.id).to eq 1
@@ -20,7 +25,9 @@ RSpec.describe Importer::Vehicle do
   end
 
   it 'check last vehicle' do
-    subject.import
+    VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
+      subject.import
+    end
 
     expect(Models::Vehicle.last.name).to eq 'MARRUÁ AM 50 2.8 140CV TDI Diesel'
     expect(Models::Vehicle.last.id).to eq 4569
