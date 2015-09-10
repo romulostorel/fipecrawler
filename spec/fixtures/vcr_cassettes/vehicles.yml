@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Ruby
+      - Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0
       Content-Type:
       - application/x-www-form-urlencoded
       Referer:
@@ -29,11 +29,11 @@ http_interactions:
       Server:
       - Microsoft-IIS/7.5
       Set-Cookie:
-      - ASP.NET_SessionId=b2lynhik3jgmdovmnwk33x1y; domain=fipe.org.br; path=/; HttpOnly
+      - ASP.NET_SessionId=5pqaudn1vq5xwdvyyfv551dm; domain=fipe.org.br; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Tue, 08 Sep 2015 20:47:45 GMT
+      - Thu, 10 Sep 2015 21:26:04 GMT
       Content-Length:
       - '470'
     body:
@@ -45,7 +45,7 @@ http_interactions:
         Gasolina","Value":"1993-1"},{"Label":"1992 Gasolina","Value":"1992-1"},{"Label":"1991
         Gasolina","Value":"1991-1"}]}'
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 20:47:59 GMT
+  recorded_at: Thu, 10 Sep 2015 21:26:17 GMT
 - request:
     method: post
     uri: http://www.fipe.org.br/IndicesConsulta-ConsultarModelos
@@ -58,7 +58,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Ruby
+      - Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0
       Content-Type:
       - application/x-www-form-urlencoded
       Referer:
@@ -75,11 +75,11 @@ http_interactions:
       Server:
       - Microsoft-IIS/7.5
       Set-Cookie:
-      - ASP.NET_SessionId=dklxbjl5jgsmj2bxjmlw2u5u; domain=fipe.org.br; path=/; HttpOnly
+      - ASP.NET_SessionId=3iyn4k3tcn4j3wtmjhwyku2c; domain=fipe.org.br; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Tue, 08 Sep 2015 20:47:46 GMT
+      - Thu, 10 Sep 2015 21:26:04 GMT
       Content-Length:
       - '1023'
     body:
@@ -97,5 +97,5 @@ http_interactions:
         Diesel","Value":"2007-3"},{"Label":"2006 Diesel","Value":"2006-3"},{"Label":"2005
         Diesel","Value":"2005-3"},{"Label":"2004 Diesel","Value":"2004-3"}]}'
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 20:48:00 GMT
+  recorded_at: Thu, 10 Sep 2015 21:26:17 GMT
 recorded_with: VCR 2.9.3

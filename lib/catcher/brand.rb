@@ -19,6 +19,7 @@ class Catcher::Brand
     req = Net::HTTP::Post.new(uri.path)
     req.set_form_data(params)
     req['Referer'] = referer
+    req['User-Agent'] = FipeCrawler::USER_AGENT
     res = Net::HTTP.start(uri.hostname, uri.port) do |http|
       http.request(req)
     end
