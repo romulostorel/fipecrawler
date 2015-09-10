@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Ruby
+      - Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0
       Content-Type:
       - application/x-www-form-urlencoded
       Referer:
@@ -29,11 +29,11 @@ http_interactions:
       Server:
       - Microsoft-IIS/7.5
       Set-Cookie:
-      - ASP.NET_SessionId=se5ujmkgbaro4rohsfmmga0z; domain=fipe.org.br; path=/; HttpOnly
+      - ASP.NET_SessionId=5twj14q4kiewsmlrxuerwp4w; domain=fipe.org.br; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Tue, 08 Sep 2015 20:43:31 GMT
+      - Thu, 10 Sep 2015 21:17:25 GMT
       Content-Length:
       - '2667'
     body:
@@ -48,5 +48,5 @@ http_interactions:
         Rover","Value":33},{"Label":"Lexus","Value":34},{"Label":"LIFAN","Value":168},{"Label":"LOBINI","Value":127},{"Label":"Lotus","Value":35},{"Label":"Mahindra","Value":140},{"Label":"Maserati","Value":36},{"Label":"Matra","Value":37},{"Label":"Mazda","Value":38},{"Label":"Mercedes-Benz","Value":39},{"Label":"Mercury","Value":40},{"Label":"MG","Value":167},{"Label":"MINI","Value":156},{"Label":"Mitsubishi","Value":41},{"Label":"Miura","Value":42},{"Label":"Nissan","Value":43},{"Label":"Peugeot","Value":44},{"Label":"Plymouth","Value":45},{"Label":"Pontiac","Value":46},{"Label":"Porsche","Value":47},{"Label":"RAM","Value":185},{"Label":"RELY","Value":186},{"Label":"Renault","Value":48},{"Label":"Rolls-Royce","Value":195},{"Label":"Rover","Value":49},{"Label":"Saab","Value":50},{"Label":"Saturn","Value":51},{"Label":"Seat","Value":52},{"Label":"SHINERAY","Value":183},{"Label":"smart","Value":157},{"Label":"SSANGYONG","Value":125},{"Label":"Subaru","Value":54},{"Label":"Suzuki","Value":55},{"Label":"TAC","Value":165},{"Label":"Toyota","Value":56},{"Label":"Troller","Value":57},{"Label":"Volvo","Value":58},{"Label":"VW
         - VolksWagen","Value":59},{"Label":"Wake","Value":163},{"Label":"Walk","Value":120}]'
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 20:43:45 GMT
+  recorded_at: Thu, 10 Sep 2015 21:17:38 GMT
 recorded_with: VCR 2.9.3
