@@ -12,10 +12,8 @@ class Parser::Vehicle
   def parse
     vehicles = []
 
-    vehicle_hash.each do |brand|
-      brand['Modelos'].each do |vehicle|
-        vehicles << {id: vehicle['Value'], name: vehicle['Label'], brand_id: brand[:brand_id]}
-      end
+    vehicle_hash['Modelos'].each do |vehicle|
+      vehicles << {id: vehicle['Value'], name: vehicle['Label'], brand_id: vehicle_hash[:brand_id]}
     end
 
     vehicles

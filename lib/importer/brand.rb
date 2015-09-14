@@ -20,12 +20,11 @@ class Importer::Brand
 
   def create_brands
     brands.each do |brand|
-      create_brand(brand['Label'], brand['Value'])
+      model.create(
+        id: brand['Value'],
+        name: brand['Label']
+      )
     end
-  end
-
-  def create_brand(name, id)
-    model.create(name: name, id: id)
   end
 
   def brands

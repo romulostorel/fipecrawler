@@ -1,22 +1,27 @@
-require 'fipe_crawler.rb'
-require 'database_cleaner'
-require 'webmock'
-require 'vcr'
-require 'simplecov'
-
-SimpleCov.start
+ENV['DATABASE_URL'] = case RUBY_ENGINE
+                      when 'jruby'
+                        'jdbc:sqlite::memory:'
+                      when 'ruby'
+                        'sqlite:/'
+                      end
 
 Dir["./spec/support/**/*.rb"].each { |f| require f }
 
-RSpec.configure do |config|
-  config.before(:suite) do
-    DatabaseCleaner.strategy = :transaction
-    DatabaseCleaner.clean_with(:truncation)
-  end
+require './lib/fipe_crawler'
 
+RSpec.configure do |config|
   config.around(:each) do |example|
-    DatabaseCleaner.cleaning do
-      example.run
-    end
+    Models::Vehicle.dataset.destroy
+    Models::Brand.dataset.destroy
+    #
+    # TODO
+    #
+    # Maybe a good idea we run tests to all databases.
+    #
+    # To run with postgresql:
+    #
+    #     $db.run 'TRUNCATE TABLE brands'
+    #     $db.run 'TRUNCATE TABLE vehicles'
+    example.run
   end
 end

@@ -5,21 +5,17 @@ RSpec.describe Importer::Brand do
   subject { described_class }
 
   it 'import 87 brands' do
-    expect(Models::Brand.count).to eq 0
-
     VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
-      subject.import
+      expect { subject.import }.to change { Models::Brand.count }.by(87)
     end
-
-    expect(Models::Brand.count).to eq 87
   end
 
-  it 'check first brand' do
+  it 'import brand' do
     VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
       subject.import
     end
 
-    expect(Models::Brand.first.name).to eq 'Acura'
+    expect(Models::Brand.map(&:name)).to include 'Acura'
   end
 
   it 'check last brand' do
@@ -27,6 +23,6 @@ RSpec.describe Importer::Brand do
       subject.import
     end
 
-    expect(Models::Brand.last.name).to eq 'GEELY'
+    expect(Models::Brand.map(&:name)).to include 'GEELY'
   end
 end

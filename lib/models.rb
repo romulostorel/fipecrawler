@@ -1,19 +1,13 @@
 module Models
-  class Brand
-    include DataMapper::Resource
-
-    property :id,        Integer, key: true
-    property :name,      String
+  class Brand < Sequel::Model
   end
 
-  class Vehicle
-    include DataMapper::Resource
-
-    property :id,        Integer, key: true
-    property :name,      String
-    belongs_to :brand
+  class Vehicle < Sequel::Model
+    def brand
+      Brand[brand_id]
+    end
   end
-
-  DataMapper.finalize
-  DataMapper.auto_migrate!
 end
+
+Models::Brand.set_allowed_columns :id, :name
+Models::Vehicle.set_allowed_columns :id, :name, :brand_id
