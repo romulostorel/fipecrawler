@@ -20,16 +20,14 @@ class Importer::Vehicle
   protected
 
   def create_vehicles
-    vehicles.each do |vehicle|
-      create_vehicle(vehicle[:name], vehicle[:id], vehicle[:brand_id])
+    Models::Brand.all.each do |brand|
+      catch_and_parse_vehicles(brand.id).each do |vehicle|
+        model.create(vehicle)
+      end
     end
   end
 
-  def create_vehicle(name, id, brand_id)
-    model.create(name: name, id: id, brand_id: brand_id)
-  end
-
-  def vehicles
-    parser.parse(catcher.catch)
+  def catch_and_parse_vehicles(brand_id)
+    parser.parse(catcher.catch(brand_id))
   end
 end

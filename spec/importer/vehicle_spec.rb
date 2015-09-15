@@ -4,33 +4,32 @@ require "importer/brand"
 require "parser/vehicle"
 
 RSpec.describe Importer::Vehicle do
-  subject { described_class }
+  subject { described_class.new }
 
   before do
-    VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do
-      Importer::Brand.import
-    end
-
-    allow(Models::Brand).to receive(:all).and_return(Models::Brand.all(limit: 2))
+    Models::Brand.create(id: 1, name: 'Acura')
   end
 
-  it 'check first vehicle' do
+  it 'imports vehicles' do
+    VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
+      expect { subject.import }.to change { Models::Vehicle.count }.by(3)
+    end
+  end
+
+  it 'correct imports vehicles' do
     VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
       subject.import
     end
 
-    expect(Models::Vehicle.first.name).to eq 'Integra GS 1.8'
-    expect(Models::Vehicle.first.id).to eq 1
-    expect(Models::Vehicle.first.brand.name).to eq 'Acura'
+    expect(Models::Vehicle.all.map(&:name)).to include 'Integra GS 1.8'
   end
 
-  it 'check last vehicle' do
+  it 'correct imports vehicles with brand' do
     VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
       subject.import
     end
 
-    expect(Models::Vehicle.last.name).to eq 'MARRUÁ AM 50 2.8 140CV TDI Diesel'
-    expect(Models::Vehicle.last.id).to eq 4569
-    expect(Models::Vehicle.last.brand.name).to eq 'Agrale'
+    vehicle = Models::Vehicle.where(name: 'Integra GS 1.8').all[0]
+    expect(vehicle.brand.name).to eq 'Acura'
   end
 end
