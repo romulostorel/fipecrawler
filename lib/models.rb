@@ -9,5 +9,12 @@ module Models
     set_allowed_columns :id, :name, :brand_id
 
     many_to_one :brand
+    one_to_many :vehicle_years
+  end
+
+  class VehicleYear < Sequel::Model
+    set_allowed_columns :id, :label, :value, :vehicle_id
+
+    many_to_one :vehicle
   end
 end

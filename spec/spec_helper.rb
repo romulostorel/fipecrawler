@@ -11,6 +11,7 @@ require './lib/fipe_crawler'
 
 RSpec.configure do |config|
   config.around(:each) do |example|
+    Models::VehicleYear.dataset.destroy
     Models::Vehicle.dataset.destroy
     Models::Brand.dataset.destroy
     #
