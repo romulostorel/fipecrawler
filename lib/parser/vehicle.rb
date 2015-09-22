@@ -1,8 +1,6 @@
 class Parser::Vehicle
-  attr_accessor :vehicle_hash
-
   def initialize(vehicle_hash)
-    self.vehicle_hash = vehicle_hash
+    @vehicle_hash = vehicle_hash
   end
 
   def self.parse(vehicle_hash)
@@ -12,8 +10,8 @@ class Parser::Vehicle
   def parse
     vehicles = []
 
-    vehicle_hash['Modelos'].each do |vehicle|
-      vehicles << {id: vehicle['Value'], name: vehicle['Label'], brand_id: vehicle_hash[:brand_id]}
+    @vehicle_hash['Modelos'].each do |vehicle|
+      vehicles << {id: vehicle['Value'], name: vehicle['Label'], brand_id: @vehicle_hash[:brand_id]}
     end
 
     vehicles
