@@ -1,14 +1,11 @@
 require 'catcher/brand'
 
 class Importer::Brand
-  attr_accessor :catcher, :model
-
   def initialize(type:, reference:)
     @type = type
     @reference = reference
-
-    self.catcher = Catcher::Brand.new(type: @type, reference: @reference)
-    self.model = Models::Brand
+    @catcher = Catcher::Brand.new(type: @type, reference: @reference)
+    @model = Models::Brand
   end
 
   def self.import(type, reference)
@@ -23,7 +20,7 @@ class Importer::Brand
 
   def create_brands
     brands.each do |brand|
-      model.create(
+      @model.create(
         id: brand['Value'],
         name: brand['Label'],
         type: @type
@@ -32,6 +29,6 @@ class Importer::Brand
   end
 
   def brands
-    JSON.parse(catcher.catch)
+    JSON.parse(@catcher.catch)
   end
 end
