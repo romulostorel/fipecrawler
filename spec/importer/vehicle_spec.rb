@@ -4,7 +4,7 @@ require "importer/brand"
 require "parser/vehicle"
 
 RSpec.describe Importer::Vehicle do
-  subject { described_class.new }
+  subject { described_class.new(type: 1, reference: 182) }
 
   before do
     Models::Brand.create(id: 1, name: 'Acura')

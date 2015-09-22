@@ -2,7 +2,7 @@ require "spec_helper"
 require "importer/brand"
 
 RSpec.describe Importer::Brand do
-  subject { described_class }
+  subject { described_class.new(type: 1, reference: 182) }
 
   it 'import 87 brands' do
     VCR.use_cassette('brands', :match_requests_on => [:method, :uri]) do

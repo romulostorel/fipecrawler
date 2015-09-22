@@ -20,7 +20,7 @@ RSpec.describe Catcher::Vehicle do
       :brand_id=>1}
   end
 
-  subject { described_class.new(1) }
+  subject { described_class.new(brand_id: 1, type: 1, reference: 182) }
 
   before do
     Models::Brand.create(id: 1, name: 'Acura')

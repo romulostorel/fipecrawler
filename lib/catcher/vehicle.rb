@@ -4,8 +4,10 @@ require 'pry'
 class Catcher::Vehicle
   attr_accessor :brand_id
 
-  def initialize(brand_id)
+  def initialize(brand_id:, type:, reference:)
     self.brand_id = brand_id
+    @type = type
+    @reference = reference
   end
 
   def self.catch(brand_id)
@@ -27,7 +29,7 @@ class Catcher::Vehicle
   end
 
   def get_json
-    post(params: { 'codigoTabelaReferencia' => 182, 'codigoTipoVeiculo' => 1, 'codigoMarca' => brand_id } ).body.force_encoding("UTF-8")
+    post(params: { 'codigoTabelaReferencia' => @reference, 'codigoTipoVeiculo' => @type, 'codigoMarca' => brand_id } ).body.force_encoding("UTF-8")
   end
 
   def get_and_parse_json
