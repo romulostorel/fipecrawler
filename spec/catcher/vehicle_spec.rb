@@ -20,7 +20,7 @@ RSpec.describe Catcher::Vehicle do
       :brand_id=>1}
   end
 
-  subject { described_class.new(brand_id: 1, type: 1, reference: 182) }
+  subject { described_class }
 
   before do
     Models::Brand.create(id: 1, name: 'Acura')
@@ -28,7 +28,7 @@ RSpec.describe Catcher::Vehicle do
 
   it 'get all brands json' do
     VCR.use_cassette('vehicles') do
-      expect(subject.catch).to eq brand_json
+      expect(subject.catch(brand_id: 1, type: 1, reference: 182)).to eq brand_json
     end
   end
 end

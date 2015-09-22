@@ -2,16 +2,14 @@ require 'net/http'
 require 'pry'
 
 class Catcher::Vehicle
-  attr_accessor :brand_id
-
-  def initialize(brand_id:, type:, reference:)
-    self.brand_id = brand_id
+  def initialize(brand_id, type, reference)
+    @brand_id = brand_id
     @type = type
     @reference = reference
   end
 
-  def self.catch(brand_id)
-    new(brand_id).catch
+  def self.catch(brand_id:, type:, reference:)
+    new(brand_id, type, reference).catch
   end
 
   def catch
@@ -21,7 +19,7 @@ class Catcher::Vehicle
   protected
 
   def brand
-    @brand ||= Models::Brand[brand_id]
+    @brand ||= Models::Brand[@brand_id]
   end
 
   def vehicles
@@ -29,11 +27,11 @@ class Catcher::Vehicle
   end
 
   def get_json
-    post(params: { 'codigoTabelaReferencia' => @reference, 'codigoTipoVeiculo' => @type, 'codigoMarca' => brand_id } ).body.force_encoding("UTF-8")
+    post(params: { 'codigoTabelaReferencia' => @reference, 'codigoTipoVeiculo' => @type, 'codigoMarca' => @brand_id } ).body.force_encoding("UTF-8")
   end
 
   def get_and_parse_json
-    JSON.parse(get_json).merge(brand_id: brand_id)
+    JSON.parse(get_json).merge(brand_id: @brand_id)
   end
 
   def post(params:)
