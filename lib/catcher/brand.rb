@@ -6,8 +6,8 @@ class Catcher::Brand
     @reference = reference
   end
 
-  def self.catch
-    new.catch
+  def self.catch(type:, reference:)
+    new(type: type, reference: reference).catch
   end
 
   def catch
