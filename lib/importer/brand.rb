@@ -3,13 +3,16 @@ require 'catcher/brand'
 class Importer::Brand
   attr_accessor :catcher, :model
 
-  def initialize
-    self.catcher = Catcher::Brand
+  def initialize(type:, reference:)
+    @type = type
+    @reference = reference
+
+    self.catcher = Catcher::Brand.new(type: @type, reference: @reference)
     self.model = Models::Brand
   end
 
-  def self.import
-    new.import
+  def self.import(type, reference)
+    new(type: type, reference: 182).import
   end
 
   def import
@@ -22,7 +25,8 @@ class Importer::Brand
     brands.each do |brand|
       model.create(
         id: brand['Value'],
-        name: brand['Label']
+        name: brand['Label'],
+        type: @type
       )
     end
   end

@@ -1,8 +1,13 @@
 require 'net/http'
 
 class Catcher::Brand
-  def self.catch
-    new.catch
+  def initialize(type:, reference:)
+    @type = type
+    @reference = reference
+  end
+
+  def self.catch(type:, reference:)
+    new(type: type, reference: reference).catch
   end
 
   def catch
@@ -12,7 +17,7 @@ class Catcher::Brand
   protected
 
   def get_json
-    post(params: {'codigoTabelaReferencia' => 182, 'codigoTipoVeiculo' => 1} ).body.force_encoding("UTF-8")
+    post(params: {'codigoTabelaReferencia' => @reference, 'codigoTipoVeiculo' => @type} ).body.force_encoding("UTF-8")
   end
 
   def post(params:)
