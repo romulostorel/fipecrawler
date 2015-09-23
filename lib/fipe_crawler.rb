@@ -9,6 +9,7 @@ require './lib/importer/brand'
 require './lib/importer/vehicle'
 require './lib/parser'
 require './lib/parser/vehicle'
+require './lib/parser/reference'
 require './lib/models'
 
 class FipeCrawler

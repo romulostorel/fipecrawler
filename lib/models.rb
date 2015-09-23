@@ -17,4 +17,8 @@ module Models
 
     many_to_one :vehicle
   end
+
+  class Reference < Sequel::Model
+    set_allowed_columns :id, :code, :label
+  end
 end
