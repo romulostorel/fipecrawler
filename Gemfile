@@ -6,6 +6,7 @@ gem 'sequel'
 gem 'rspec'
 gem 'simplecov', require: false
 gem 'pry'
+gem 'nokogiri'
 
 platforms :jruby do
   group :development, :production do
