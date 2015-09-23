@@ -14,6 +14,7 @@ RSpec.configure do |config|
     Models::VehicleYear.dataset.destroy
     Models::Vehicle.dataset.destroy
     Models::Brand.dataset.destroy
+    Models::Reference.dataset.destroy
     #
     # TODO
     #
