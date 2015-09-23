@@ -22,7 +22,7 @@ class Importer::Vehicle
   def create_vehicles
     Models::Brand.all.each do |brand|
       catch_and_parse_vehicles(brand.id, @type, @reference).each do |vehicle|
-        @model.create(vehicle.merge({ type: @type }))
+        @model.create(vehicle)
       end
     end
   end
