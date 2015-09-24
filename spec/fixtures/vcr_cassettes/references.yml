@@ -1,0 +1,1632 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.fipe.org.br/pt-br/indices/veiculos/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Expires:
+      - Wed, 23 Sep 2015 04:20:22 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - ASP.NET_SessionId=ax15pt4vsyfihaanujwtznzg; domain=fipe.org.br; path=/; HttpOnly
+      - ASP.NET_SessionId=ax15pt4vsyfihaanujwtznzg; domain=fipe.org.br; path=/; HttpOnly
+      - __RequestVerificationToken=RSRByNnc-Oc5fxKYVmE13DN_s-r0Rro5RGSEbp3ZRL1Z8aXi8538tGr-1RB9PMvgW1lPBrImf1lYLqVhPk9a4eJdCS8z2vc5ApklLO4fHsI1;
+        domain=fipe.org.br; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      - SAMEORIGIN
+      - SAMEORIGIN
+      Date:
+      - Wed, 23 Sep 2015 04:19:22 GMT
+      Content-Length:
+      - '133720'
+    body:
+      encoding: UTF-8
+      string: "\r\n<!DOCTYPE html>\r\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
+        lt-ie8 lt-ie7\"> <![endif]-->\r\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\r\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\r\n<!--[if gt IE 8]><!-->\r\n<html class=\"no-js\"
+        lang=\"pt-br\">\r\n<!--<![endif]-->\r\n<head>\r\n    <meta charset=\"utf-8\"
+        />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n
+        \   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1,
+        maximum-scale=1, user-scalable=no\" />\r\n    <meta http-equiv=\"cache-control\"
+        content=\"public\" />\r\n\r\n\r\n\r\n    <!-- Adding a RenderSection here,
+        mark it as not required-->\r\n    \r\n\r\n    <title>Tabela Fipe - Funda&#231;&#227;o
+        Instituto de Pesquisas Econ&#244;micas - Fipe</title>\r\n\r\n    <link rel=\"shortcut
+        icon\" href=\"/Content/img/favicon.png\" type=\"image/ico\" />\r\n    <!--
+        ICONS -->\r\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\"
+        href=\"/Content/img/modulos/actions/thumb_144x144.jpg\">\r\n    <link rel=\"apple-touch-icon-precomposed\"
+        sizes=\"114x114\" href=\"/Content/img/modulos/actions/thumb_114x114.jpg\">\r\n
+        \   <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"/Content/img/modulos/actions/thumb_72x72.jpg\">\r\n
+        \   <link rel=\"apple-touch-icon-precomposed\" href=\"/Content/img/modulos/actions/thumb_57x57.jpg\">\r\n\r\n
+        \   <!-- Tile icon for Win8 (144x144 + tile color) -->\r\n    <meta name=\"msapplication-TileImage\"
+        content=\"/Content/img/modulos/actions/thumb_144x144.jpg\">\r\n    <meta name=\"msapplication-TileColor\"
+        content=\"#222222\">\r\n\r\n    <meta itemprop=\"name\" content=\"Fipe - Fundação
+        Instituto de Pesquisas Econômicas\">\r\n    <meta itemprop=\"description\"
+        content=\"A Fipe tem atua&#231;&#227;o nas &#225;reas de indicadores econ&#244;micos,
+        ensino e projetos e pesquisa. Acesse e conhe&#231;a o conte&#250;do informativo
+        que o site oferece.\">\r\n    <meta itemprop=\"image\" content=\"http://www.fipe.org.br/Content/img/modulos/actions/thumb_compartilhamento_facebook_320x320.jpg\">\r\n\r\n
+        \   <meta property=\"og:title\" content=\"Fipe - Fundação Instituto de Pesquisas
+        Econômicas\" />\r\n    <meta property=\"og:description\" content=\"A Fipe
+        tem atua&#231;&#227;o nas &#225;reas de indicadores econ&#244;micos, ensino
+        e projetos e pesquisa. Acesse e conhe&#231;a o conte&#250;do informativo que
+        o site oferece.\" />\r\n    <meta property=\"og:url\" content=\"http://www.fipe.org.br/\"
+        />\r\n    <meta property=\"og:image\" content=\"http://www.fipe.org.br/Content/img/modulos/actions/thumb_compartilhamento_facebook_320x320.jpg\"
+        />\r\n    <meta property=\"og:site_name\" content=\"Fipe\" />\r\n    <meta
+        property=\"og:type\" content=\"website\" />\r\n\r\n    \r\n\r\n    <!--[if
+        lt IE 9]>\r\n        <script src=\"/Content/js/css3-mediaqueries.js\"></script>\r\n
+        \       <script src=\"/Content/js/selectivizr-min.js\"></script>\r\n    <![endif]-->\r\n\r\n
+        \   <script type=\"text/javascript\">\r\n        var siteUrl = 'http://www.fipe.org.br'\r\n
+        \       var downloadURL = 'http://downloads.fipe.org.br'\r\n        var _urlPagina
+        = 'http://www.fipe.org.br/pt-br/indices/veiculos/'\r\n        var secao =
+        'Pre&#231;o M&#233;dio de Ve&#237;culos'\r\n        var idiomaAtual = 'pt-br';\r\n
+        \   </script>\r\n    <link rel=\"stylesheet\" href=\"/Content/css/fonts.css\"
+        />\r\n    <link rel=\"stylesheet\" href=\"/Content/css/reset.css\" />\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/normalize.css\" />\r\n    <link
+        rel=\"stylesheet\" href=\"/Content/css/main.css\" />\r\n    <link rel=\"stylesheet\"
+        href=\"//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css\" />\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/vendor/perfect-scrollbar.css\">\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/vendor/easydropdown.flat.css\">\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/vendor/jquery.mmenu.all.css\"
+        />\r\n\r\n    <script type=\"text/javascript\" src=\"/Content/js/jquery-1.11.0.min.js\"></script>\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/traducoes.js\"></script>\r\n
+        \   <script type=\"text/javascript\" src=\"//code.jquery.com/ui/1.10.4/jquery-ui.min.js\"></script>\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/vendor/detectmobilebrowser.js\"></script>\r\n
+        \   <!--<script type=\"text/javascript\" src=\"~/Content/js/modulos/jquery.mtz.monthpicker.js\"></script>-->\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/vendor/bigNumbers.min.js\"
+        async></script>\r\n    <script type=\"text/javascript\" src=\"/Content/js/vendor/perfect-scrollbar.with-mousewheel.min.js\"></script>\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/vendor/jquery.easydropdown.min.js\"></script>\r\n
+        \   \r\n    \r\n\r\n\r\n    <script type=\"text/javascript\" src=\"/Content/js/vendor/jquery.mmenu.min.all.js\"></script>\r\n\r\n
+        \   <script type=\"text/javascript\">\r\n\r\n    var _globalLink = '';\r\n
+        \   var _globalPageView = '';\r\n\r\n    var _dataaction = '';\r\n    var
+        _pageview = '';\r\n\r\n    (function (i, s, o, g, r, a, m) {\r\n        i['GoogleAnalyticsObject']
+        = r; i[r] = i[r] || function () {\r\n            (i[r].q = i[r].q || []).push(arguments)\r\n
+        \       }, i[r].l = 1 * new Date(); a = s.createElement(o),\r\n        m =
+        s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a,
+        m)\r\n    })(window, document, 'script', '//www.google-analytics.com/analytics.js',
+        'ga');\r\n\r\n    ga('create', 'UA-603584-2', 'fipe.org.br');\r\n\r\n</script>\r\n\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/ga-1.0.min.js\"></script>\r\n
+        \   <script type=\"text/javascript\" src=\"/Content/js/functions.min.js\"></script>\r\n\r\n
+        \   <!-- Imprime um JS antes do script de TAB-->\r\n    \r\n    <script type=\"text/javascript\"
+        src=\"/Content/js/tab.js\" async></script>\r\n    <script type=\"text/javascript\"
+        src=\"/Content/js/vendor/modernizr-2.8.3.js\" async></script>\r\n</head>\r\n<body>\r\n
+        \   <div class=\"wrapper\">\r\n        <div id=\"mobile\"></div>\r\n        \r\n\r\n<header
+        id=\"header_main\">\r\n\t<section>\r\n\t\t<div class=\"fLeft\">\r\n\t\t\t<figure
+        id=\"logo\">\r\n\t\t\t\t<a href=\"http://www.fipe.org.br/pt-br/home\">\r\n\t\t\t\t\t<img
+        src=\"/Content/img/logo_fipe.png\" alt=\"\" />\r\n\t\t\t\t</a>\r\n\r\n\t\t\t\t<figcaption>\r\n\t\t\t\t\tfundação
+        instituto de pesquisas econômicas\r\n\t\t\t\t</figcaption>\r\n\r\n\t\t\t\t<div
+        class=\"clear\"></div>\r\n\t\t\t</figure>\r\n\t\t</div>\r\n\r\n\t\t<div class=\"fRight\">\r\n\t\t\t<div
+        id=\"search\">\r\n\t\t\t\t<input type=\"submit\" class=\"btn_search\" />\r\n\t\t\t\t<input
+        type=\"reset\" class=\"btn_reset\" />\r\n<form action=\"http://www.fipe.org.br/pt-br/busca\"
+        id=\"frmBusca\" method=\"post\" name=\"frmBusca\">\t\t\t\t\t\r\n\t\t\t\t\t\t<div
+        class=\"inputTxt\">\r\n\t\t\t\t\t\t\t<input name=\"__RequestVerificationToken\"
+        type=\"hidden\" value=\"xzYVewHordEM4Qu5qJ7AfLifxMN6c8BnIgNZq3WV1D_qa8hHSdIiIiX9Ee2VAo136Q1xbiLjYfXx0Fm0ByjTmhgnBRdxsLLOHvuWfmST6201\"
+        />\r\n\t\t\t\t\t\t\t<input maxlength=\"100\" type=\"text\" placeholder=\"busca\"
+        id=\"textoBusca\" name=\"textoBusca\" autocomplete=\"off\" />\r\n\t\t\t\t\t\t\t<input
+        type=\"hidden\" name=\"pg\" id=\"pg\" value=\"0\" />\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\r\n</form>\t\t\t</div>\r\n\r\n\t\t\t<div
+        class=\"clear clear_social\"></div>\r\n\r\n\t\t\t<div class=\"social\">\r\n\t\t\t\t<ul>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<div
+        class=\"button\">\r\n\t\t\t\t\t\t\t<a data-ga=\"social\" data-network=\"Twitter\"
+        data-action=\"share\" data-target=\"http://www.fipe.org.br/pt-br/indices/veiculos/\"
+        href=\"https://twitter.com/intent/tweet?text=A Fipe tem atua&#231;&#227;o
+        nas &#225;reas de indicadores econ&#244;micos, ensino e projetos e pesquisa.
+        Acesse&amp;url=http://www.fipe.org.br/pt-br/home&amp;related=\" target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/Content/img/buttons/social/btn_twitter.png\" />\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<div
+        class=\"button\">\r\n\t\t\t\t\t\t\t<a data-ga=\"social\" data-network=\"Facebook\"
+        data-action=\"share\" data-target=\"http://www.fipe.org.br/pt-br/indices/veiculos/\"
+        href=\"https://www.facebook.com/sharer/sharer.php?u=http://www.fipe.org.br/pt-br/home&amp;display=popup\"
+        target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<img src=\"/Content/img/buttons/social/btn_face.png\"
+        />\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<div
+        class=\"button\">\r\n\t\t\t\t\t\t\t<a data-ga=\"social\" data-network=\"g+\"
+        data-action=\"share\" data-target=\"http://www.fipe.org.br/pt-br/indices/veiculos/\"
+        href=\"https://plus.google.com/share?url=http://www.fipe.org.br/pt-br/home\"
+        target=\"_blank\">\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<img src=\"/Content/img/buttons/social/btn_google.png\"
+        />\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<div
+        class=\"clear\"></div>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div
+        id=\"idioma\">\r\n\t\t\t\t<div class=\"lg en_us active\">\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/home\">\r\n\t\t\t\t\t\tPT\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"lg pt_br \">\r\n\t\t\t\t\t<a href=\"http://www.fipe.org.br/en-us/home\">\r\n\t\t\t\t\t\tEN\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div
+        class=\"clear\"></div>\r\n\t\t\t</div>\r\n\r\n\t\t\t<div class=\"clear\"></div>\r\n\t\t</div>\r\n\r\n\t\t<div
+        class=\"clear\"></div>\r\n\t</section>\r\n</header>\r\n\r\n<header id=\"header_mobile\">\r\n\t<a
+        id=\"linkMenu\" href=\"#menuMobile\"><img src=\"/Content/img/mobile/bg-link-menu.gif\"
+        alt=\"Menu\"></a>\r\n\t<figure id=\"logo\">\r\n\t\t<a href=\"http://www.fipe.org.br/pt-br/home\"><img
+        src=\"/Content/img/mobile/logo-fipe.gif\" alt=\"FIPE\"/></a>\r\n\t</figure>\r\n\t<a
+        id=\"linkSearch\" href=\"#\"><img src=\"/Content/img/mobile/link-search.png\"
+        alt=\"Busca\"></a>\r\n\t<div id=\"idioma\">\r\n\t\t<div class=\"lg en_us active\">\r\n\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/home\">\r\n\t\t\t\tPT\r\n\t\t\t</a>\r\n\t\t</div>\r\n\t\t<div
+        class=\"lg pt_br \">\r\n\t\t\t<a href=\"http://www.fipe.org.br/en-us/home\">\r\n\t\t\t\tEN\r\n\t\t\t</a>\r\n\t\t</div>\r\n\t\t<div
+        class=\"clear\"></div>\r\n\t</div>\r\n\t<div id=\"search_mobile\">\r\n<form
+        action=\"http://www.fipe.org.br/pt-br/busca\" id=\"frmBusca\" method=\"post\"
+        name=\"frmBusca\">\t\t\t\r\n\t\t\t\t<div class=\"inputTxt\">\r\n\t\t\t\t\t<input
+        name=\"__RequestVerificationToken\" type=\"hidden\" value=\"CBdLBoI-NLSoba4iJnjTiR4saSo1FifSEQPa0HeqjTA0mvoCXL8peqX1MNGl9Y8H3YRUP-MtyvutZ8mHMxEtlps8ScbN3BZ2uv-xaU6WZdE1\"
+        />\r\n\t\t\t\t\t<input maxlength=\"100\" type=\"text\" id=\"textoBusca\" name=\"textoBusca\"
+        autocomplete=\"off\" />\r\n\t\t\t\t\t<input type=\"hidden\" name=\"pg\" id=\"pg\"
+        value=\"0\" />\r\n\t\t\t\t</div>\r\n\t\t\t\r\n</form>\t</div>\r\n</header>\r\n\r\n
+        \       \r\n        \r\n\r\n\t<nav id=\"principal\">\r\n\t\t<ul>\r\n\t\t\t\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/indices\" data-ga data-category=\"menu_superior\"
+        data-action=\"clique\" data-label=\"indices\" data-slug=\"indices\">\r\n\t\t\t\t\t\t<figure
+        class=\"ico\">\r\n\t\t\t\t\t\t\t<img src=\"/Content/img/nav/ico/indices.png\"
+        alt=\"\" />\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\t&#205;ndices
+        e Indicadores\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/ensino\" data-ga data-category=\"menu_superior\"
+        data-action=\"clique\" data-label=\"ensino\" data-slug=\"ensino\">\r\n\t\t\t\t\t\t<figure
+        class=\"ico\">\r\n\t\t\t\t\t\t\t<img src=\"/Content/img/nav/ico/ensino.png\"
+        alt=\"\" />\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\tEnsino\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/projetos-e-pesquisas\" data-ga data-category=\"menu_superior\"
+        data-action=\"clique\" data-label=\"projetos-e-pesquisas\" data-slug=\"projetos-e-pesquisas\">\r\n\t\t\t\t\t\t<figure
+        class=\"ico\">\r\n\t\t\t\t\t\t\t<img src=\"/Content/img/nav/ico/projetos-e-pesquisas.png\"
+        alt=\"\" />\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\tProjetos
+        e Pesquisas\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/publicacoes\" data-ga data-category=\"menu_superior\"
+        data-action=\"clique\" data-label=\"publicacoes\" data-slug=\"publicacoes\">\r\n\t\t\t\t\t\t<figure
+        class=\"ico\">\r\n\t\t\t\t\t\t\t<img src=\"/Content/img/nav/ico/publicacoes.png\"
+        alt=\"\" />\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\tPublica&#231;&#245;es\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li>\r\n\t\t\t\t\t<a
+        href=\"http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/\" data-ga
+        data-category=\"menu_superior\" data-action=\"clique\" data-label=\"sobre-a-fipe\"
+        data-slug=\"sobre-a-fipe\">\r\n\t\t\t\t\t\t<figure class=\"ico\">\r\n\t\t\t\t\t\t\t<img
+        src=\"/Content/img/nav/ico/sobre-a-fipe.png\" alt=\"\" />\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</figure>\r\n\t\t\t\t\t\tSobre
+        a Fipe\r\n\t\t\t\t\t</a>\r\n\t\t\t\t</li>\r\n\r\n\t\t\t<div class=\"clear\"></div>\r\n\t\t</ul>\r\n\t</nav>\r\n\r\n\r\n
+        \       \r\n\r\n\r\n<nav id=\"menuMobile\">\r\n    <ul>\r\n        \r\n            <li>\r\n
+        \               <a href=\"http://www.fipe.org.br/pt-br/indices\" data-ga data-category=\"menu_mobile\"
+        data-action=\"clique\"\r\n                   data-label=\"indices\" data-slug=\"indices\">\r\n
+        \                   &#205;ndices e Indicadores\r\n                </a>\r\n
+        \                   <ul>\r\n                            <li>\r\n                                <a
+        href=\"http://www.fipe.org.br/pt-br/indices/ipac/\" data-label=\"ipac\" id=\"ipac\"\r\n
+        \                                  data-action=\"clique\" data-category=\"submenu_mobile\">IPAC</a>\r\n
+        \                           </li>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/indices/ipc/\"
+        data-label=\"ipc\" id=\"ipc\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">IPC</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/ipop/\"
+        data-label=\"ipop\" id=\"ipop\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">IPOP</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/ipr/\"
+        data-label=\"ipr\" id=\"ipr\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">&#205;ndice de Pre&#231;os Regionais</a>\r\n
+        \                           </li>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/indices/fipezap/\"
+        data-label=\"fipezap\" id=\"fipezap\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">FipeZAP</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/ila/\"
+        data-label=\"ila\" id=\"ila\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">ILA</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/catho-fipe/\"
+        data-label=\"catho-fipe\" id=\"catho-fipe\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Indicadores Catho-FIPE</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/pof/\"
+        data-label=\"pof\" id=\"pof\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">POF</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/veiculos/\"
+        data-label=\"veiculos\" id=\"veiculos\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Pre&#231;o M&#233;dio de Ve&#237;culos</a>\r\n
+        \                           </li>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/indices/salariometro/\"
+        data-label=\"salariometro\" id=\"salariometro\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Salari&#244;metro</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/indices/abrainc/\"
+        data-label=\"abrainc\" id=\"abrainc\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Indicadores Abrainc/Fipe</a>\r\n                            </li>\r\n
+        \                   </ul>\r\n            </li>\r\n            <li>\r\n                <a
+        href=\"http://www.fipe.org.br/pt-br/ensino\" data-ga data-category=\"menu_mobile\"
+        data-action=\"clique\"\r\n                   data-label=\"ensino\" data-slug=\"ensino\">\r\n
+        \                   Ensino\r\n                </a>\r\n                    <ul>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/ensino/mba/\"
+        data-label=\"mba\" id=\"mba\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Mba</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/ensino/cursos-preparatorios/\"
+        data-label=\"cursos-preparatorios\" id=\"cursos-preparatorios\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Cursos Preparat&#243;rios</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/ensino/extensao-curta-duracao/\"
+        data-label=\"extensao-curta-duracao\" id=\"extensao-curta-duracao\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Curta Dura&#231;&#227;o</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/ensino/intercambio-internacional/\"
+        data-label=\"intercambio-internacional\" id=\"intercambio-internacional\"\r\n
+        \                                  data-action=\"clique\" data-category=\"submenu_mobile\">Interc&#226;mbio
+        Internacional</a>\r\n                            </li>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/ensino/corpo-docente/\"
+        data-label=\"corpo-docente\" id=\"corpo-docente\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Corpo Docente</a>\r\n                            </li>\r\n
+        \                   </ul>\r\n            </li>\r\n            <li>\r\n                <a
+        href=\"http://www.fipe.org.br/pt-br/projetos-e-pesquisas\" data-ga data-category=\"menu_mobile\"
+        data-action=\"clique\"\r\n                   data-label=\"projetos-e-pesquisas\"
+        data-slug=\"projetos-e-pesquisas\">\r\n                    Projetos e Pesquisas\r\n
+        \               </a>\r\n                    <ul>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/projetos-e-pesquisas/temas/\"
+        data-label=\"temas\" id=\"temas\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Temas</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/projetos-e-pesquisas/contratantes/\"
+        data-label=\"contratantes\" id=\"contratantes\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Contratantes</a>\r\n                            </li>\r\n
+        \                   </ul>\r\n            </li>\r\n            <li>\r\n                <a
+        href=\"http://www.fipe.org.br/pt-br/publicacoes\" data-ga data-category=\"menu_mobile\"
+        data-action=\"clique\"\r\n                   data-label=\"publicacoes\" data-slug=\"publicacoes\">\r\n
+        \                   Publica&#231;&#245;es\r\n                </a>\r\n                    <ul>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/publicacoes/bif/\"
+        data-label=\"bif\" id=\"bif\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Boletim Informa&#231;&#245;es Fipe</a>\r\n
+        \                           </li>\r\n                            <li>\r\n
+        \                               <a href=\"http://www.fipe.org.br/pt-br/publicacoes/estudos-economicos/\"
+        data-label=\"estudos-economicos\" id=\"estudos-economicos\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Estudos Econ&#244;micos</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/publicacoes/textos-para-discussao/\"
+        data-label=\"textos-para-discussao\" id=\"textos-para-discussao\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Textos Para Discuss&#227;o</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/publicacoes/relatorios/\"
+        data-label=\"relatorios\" id=\"relatorios\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">&#205;ndices Fipe Comentados</a>\r\n                            </li>\r\n
+        \                   </ul>\r\n            </li>\r\n            <li>\r\n                <a
+        href=\"javascript:void(0);\" data-ga data-category=\"menu_mobile\" data-action=\"clique\"\r\n
+        \                  data-label=\"institucional\" data-slug=\"institucional\">\r\n
+        \                   Institucional\r\n                </a>\r\n                    <ul>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/\"
+        data-label=\"sobre-a-fipe\" id=\"sobre-a-fipe\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Sobre a Fipe</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/institucional/fipe-40-anos/\"
+        data-label=\"fipe-40-anos\" id=\"fipe-40-anos\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Fipe 40 anos</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/institucional/quem-somos/\"
+        data-label=\"quem-somos\" id=\"quem-somos\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Quem Somos</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/institucional/contato/\"
+        data-label=\"contato\" id=\"contato\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Contato</a>\r\n                            </li>\r\n
+        \                           <li>\r\n                                <a href=\"http://www.fipe.org.br/pt-br/institucional/mapa-do-site/\"
+        data-label=\"mapa-do-site\" id=\"mapa-do-site\"\r\n                                   data-action=\"clique\"
+        data-category=\"submenu_mobile\">Mapa do Site</a>\r\n                            </li>\r\n
+        \                   </ul>\r\n            </li>\r\n            <li>\r\n                <a
+        href=\"http://www.fipe.org.br/pt-br/noticias\" data-ga data-category=\"menu_mobile\"
+        data-action=\"clique\"\r\n                   data-label=\"noticias\" data-slug=\"noticias\">\r\n
+        \                   Not&#237;cias\r\n                </a>\r\n            </li>\r\n
+        \   </ul>\r\n</nav>\r\n\r\n        \r\n\r\n\r\n<link rel=\"Stylesheet\" href=\"/Content/css/indices.css\"
+        />\r\n<link rel=\"Stylesheet\" href=\"/Content/css/interna.css\" />\r\n<link
+        rel=\"stylesheet\" href=\"/Content/css/modulos/prism.css\">\r\n<link rel=\"stylesheet\"
+        href=\"/Content/css/modulos/chosen.css\">\r\n<link rel=\"Stylesheet\" href=\"/Content/css/modulos/calendar.css\"
+        />\r\n<link rel=\"Stylesheet\" href=\"/Content/css/vendor/autocomplete.css\"
+        />\r\n\r\n<!--<script src=\"~/Content/js/modulos/jquery.mtz.monthpicker.js\"></script>-->\r\n\r\n<script>\r\n
+        \   $(function () {\r\n        trackPageView(\"/indices-e-indicadores/veiculos\");\r\n
+        \   });\r\n</script>\r\n\r\n\r\n\r\n<section id=\"back\">\r\n\t<div id=\"banner\"
+        style=\"background-image: url(http://www.fipe.org.br/Content/img/indices/banner.jpg)\">\r\n\t\t<div
+        class=\"title\">\r\n\t\t\t<img src=\"http://www.fipe.org.br/Content/img/indices/icone.png\"
+        class=\"ico\">\r\n\t\t\t<h1>&#205;ndices e Indicadores</h1>\r\n\t\t</div>\r\n\t</div>\r\n\t<section>\r\n\t\t\t<div
+        class=\"info\">\r\n\t\t\t\t\r\n\r\n    <article>\r\n            <h2>Cursos
+        Fipe</h2>\r\n        <p>\r\n            MBA Elabora&#231;&#227;o de Projetos
+        e Gest&#227;o Empresarial<br /><i>5 de outubro de 2015</i><br />\r\n            <a
+        href=\"http://www.fipe.org.br/pt-br/ensino/mba/#EPAEGE2&amp;217cad\" data-ga\r\n
+        \              data-category=\"indices_cursos_fipe\" data-action=\"cadastre_se\"
+        data-label=\"mba_elaboracao_de_projetos_e_gestao_empresarial\">Cadastre-se</a>\r\n
+        \       </p>\r\n    </article>\r\n    <div class=\"clear\"></div>\r\n    <article>\r\n
+        \       <p>\r\n            MBA Economia Brasileira<br /><i>5 de outubro de
+        2015</i><br />\r\n            <a href=\"http://www.fipe.org.br/pt-br/ensino/mba/#EBFA4&amp;323cad\"
+        data-ga\r\n               data-category=\"indices_cursos_fipe\" data-action=\"cadastre_se\"
+        data-label=\"mba_economia_brasileira\">Cadastre-se</a>\r\n        </p>\r\n
+        \   </article>\r\n    <div class=\"clear\"></div>\r\n    <article>\r\n        <p>\r\n
+        \           MBA Economia Empresarial<br /><i>6 de maio de 2016</i><br />\r\n
+        \           <a href=\"http://www.fipe.org.br/pt-br/ensino/mba/#MBAECOEM1&amp;990cad\"
+        data-ga\r\n               data-category=\"indices_cursos_fipe\" data-action=\"cadastre_se\"
+        data-label=\"mba_economia_empresarial\">Cadastre-se</a>\r\n        </p>\r\n
+        \   </article>\r\n    <div class=\"clear\"></div>\r\n\r\n\t\t\t</div>\r\n\t</section>\r\n</section>\r\n\r\n<section
+        id=\"front\">\r\n    \r\n    <nav id=\"interna\">\r\n    <ul>\r\n        <li
+        class=\"title\">\r\n            <article>&#205;ndices</article>\r\n        </li>\r\n
+        \       \r\n\r\n\r\n\r\n    <li >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/ipac/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"ipac\" data-slug=\"ipac\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"&#205;ndice de pre&#231;os do
+        setor de asseio e conserva&#231;&#227;o\">IPAC</div>\r\n            </a>\r\n
+        \       </article>\r\n    </li>\r\n\r\n\r\n\r\n    <li >\r\n        <article>\r\n
+        \           <a href=\"http://www.fipe.org.br/pt-br/indices/ipc/\" data-ga
+        data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"ipc\" data-slug=\"ipc\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"&#205;ndice de Pre&#231;os ao
+        Consumidor\">IPC</div>\r\n            </a>\r\n        </article>\r\n    </li>\r\n\r\n\r\n\r\n
+        \   <li >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/ipop/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"ipop\" data-slug=\"ipop\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"&#205;ndice de Pre&#231;os de
+        Obras P&#250;blicas\">IPOP</div>\r\n            </a>\r\n        </article>\r\n
+        \   </li>\r\n\r\n\r\n\r\n    <li >\r\n        <article>\r\n            <a
+        href=\"http://www.fipe.org.br/pt-br/indices/ipr/\" data-ga data-category=\"indices_indicadores_menu_lateral\"
+        data-action=\"clique\" data-label=\"ipr\" data-slug=\"ipr\">\r\n                <div
+        class=\"btn_over\"></div>\r\n                <div class=\"link\" title=\"&#205;ndice
+        de Pre&#231;os Regionais\">&#205;ndice de Pre&#231;os Regionais</div>\r\n
+        \           </a>\r\n        </article>\r\n    </li>\r\n\r\n\r\n\r\n    <li
+        >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/fipezap/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"fipezap\" data-slug=\"fipezap\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"&#205;ndice FipeZap de Pre&#231;os
+        de Im&#243;veis Anunciados\">FipeZAP</div>\r\n            </a>\r\n        </article>\r\n
+        \   </li>\r\n    </ul>\r\n    <ul>\r\n        <li class=\"title\">\r\n            <article>Indicadores</article>\r\n
+        \       </li>\r\n        \r\n\r\n\r\n\r\n    <li >\r\n        <article>\r\n
+        \           <a href=\"http://www.fipe.org.br/pt-br/indices/ila/\" data-ga
+        data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"ila\" data-slug=\"ila\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"Indicador de Liquida&#231;&#227;o
+        Antecipada\">ILA</div>\r\n            </a>\r\n        </article>\r\n    </li>\r\n\r\n\r\n\r\n
+        \   <li >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/catho-fipe/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"catho-fipe\" data-slug=\"catho-fipe\">\r\n                <div
+        class=\"btn_over\"></div>\r\n                <div class=\"link\" title=\"Indicadores
+        Catho-FIPE\">Indicadores Catho-FIPE</div>\r\n            </a>\r\n        </article>\r\n
+        \   </li>\r\n\r\n\r\n\r\n    <li >\r\n        <article>\r\n            <a
+        href=\"http://www.fipe.org.br/pt-br/indices/pof/\" data-ga data-category=\"indices_indicadores_menu_lateral\"
+        data-action=\"clique\" data-label=\"pof\" data-slug=\"pof\">\r\n                <div
+        class=\"btn_over\"></div>\r\n                <div class=\"link\" title=\"Pesquisa
+        de Or&#231;amentos Familiares\">POF</div>\r\n            </a>\r\n        </article>\r\n
+        \   </li>\r\n\r\n\r\n\r\n    <li  class=active >\r\n        <article>\r\n
+        \           <a href=\"http://www.fipe.org.br/pt-br/indices/veiculos/\" data-ga
+        data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"veiculos\" data-slug=\"veiculos\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\"Tabela Fipe\">Pre&#231;o M&#233;dio
+        de Ve&#237;culos</div>\r\n            </a>\r\n        </article>\r\n    </li>\r\n\r\n\r\n\r\n
+        \   <li >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/salariometro/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"salariometro\" data-slug=\"salariometro\">\r\n                <div
+        class=\"btn_over\"></div>\r\n                <div class=\"link\" title=\"Salari&#244;metro\">Salari&#244;metro</div>\r\n
+        \           </a>\r\n        </article>\r\n    </li>\r\n\r\n\r\n\r\n    <li
+        >\r\n        <article>\r\n            <a href=\"http://www.fipe.org.br/pt-br/indices/abrainc/\"
+        data-ga data-category=\"indices_indicadores_menu_lateral\" data-action=\"clique\"
+        data-label=\"abrainc\" data-slug=\"abrainc\">\r\n                <div class=\"btn_over\"></div>\r\n
+        \               <div class=\"link\" title=\" \">Indicadores Abrainc/Fipe</div>\r\n
+        \           </a>\r\n        </article>\r\n    </li>\r\n    </ul>\r\n</nav>\r\n
+        \   <div class=\"content\">\r\n        \r\n\r\n\r\n     <h1 data-slug=\"veiculos-texto\"
+        data-positiontop=\"true\">Pre&#231;o M&#233;dio de Ve&#237;culos</h1>\r\n\r\n<p>1.
+        A Tabela Fipe expressa pre&ccedil;os m&eacute;dios de ve&iacute;culos no mercado
+        nacional, servindo apenas como um par&acirc;metro para negocia&ccedil;&otilde;es
+        ou avalia&ccedil;&otilde;es. Os pre&ccedil;os efetivamente praticados variam
+        em fun&ccedil;&atilde;o da regi&atilde;o, conserva&ccedil;&atilde;o, cor,
+        acess&oacute;rios ou qualquer outro fator que possa influenciar as condi&ccedil;&otilde;es
+        de oferta e procura por um ve&iacute;culo espec&iacute;fico.</p>\r\n\r\n<p>2.
+        O ano do ve&iacute;culo refere-se ao ano do modelo e n&atilde;o s&atilde;o
+        considerados ve&iacute;culos para uso profissional ou especial.</p>\r\n\r\n<p>3.
+        Os valores s&atilde;o expressos em R$ (reais) do m&ecirc;s/ano de refer&ecirc;ncia.</p>\r\n
+        \                   <div class=\"tab vertical tab-veiculos\" veiculos>\r\n
+        \               <ul>\r\n                        <li class=\"ilustra\">\r\n
+        \                           <a href=\"javascript:void(0)\" data-slug=\"carro\"
+        data-ga data-category=\"indices_indicadores_subitens\" data-action=\"veiculos\"
+        data-label=\"carro\">\r\n                                <div class=\"ico\"></div>\r\n
+        \                               <div class=\"title\">Consulta de Carros e
+        Utilit&#225;rios Pequenos</div>\r\n                            </a>\r\n\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/modulos/prism.css\">\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/modulos/chosen.css\">\r\n
+        \   <div class=\"tab horizontal inside\" veiculos>\r\n        <nav>\r\n            <ul>\r\n
+        \               <li class=\"open\">\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abacarro-comum\" data-slug=\"carro-comum\" data-slugparent=\"carro\"
+        data-tabref=\"selectTabelaReferenciacarro\">Pesquisa comum</a>\r\n                </li>\r\n
+        \               <li>\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abacarro-codigo\" data-slug=\"carro-codigo\" data-slugparent=\"carro\"
+        data-tabref=\"selectTabelaReferenciacarroConsultarPorCodigoFipe\">Pesquisa
+        por código Fipe</a>\r\n                </li>\r\n                <div class=\"clear\"></div>\r\n
+        \           </ul>\r\n        </nav>\r\n        <article class=\"open inside-search\"\r\n
+        \                config=\"carro\"\r\n                 tipoconsulta=\"tradicional\"\r\n
+        \                codtipoveiculo=\"1\"\r\n                 idselecttabelaref=\"selectTabelaReferenciacarro\"\r\n
+        \                idselectmarca=\"selectMarcacarro\"\r\n                 idselectmodeloveiculo=\"selectAnoModelocarro\"\r\n
+        \                idselectano=\"selectAnocarro\"\r\n                 iddivresultado=\"resultadoConsultacarroFiltros\"\r\n
+        \                idbutton=\"buttonPesquisarcarro\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"carro\"\r\n                 idbuttonclear=\"buttonLimparPesquisarcarro\"\r\n
+        \                marca=\"\"\r\n                 modelo=\"\"\r\n                 nomeveiculo=\"Carros\"\r\n
+        \                ano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcacarro\"\r\n                    data-no_results_text=\"Nada
+        encontrado com\"\r\n                    data-tabref=\"selectTabelaReferenciacarro\"\r\n
+        \                   id=\"selectTabelaReferenciacarro\"\r\n                    class=\"chosen-select\"\r\n
+        \                   style=\"width:165px\" data-tipo=\"referencia\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n            <div
+        class=\"line\"></div>\r\n\r\n            <div class=\"form\">\r\n                <p>Informe
+        primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong>
+        e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar
+        a informação no campo \"busca\", dentro de cada opção do formulário da pesquisa.</p>\r\n\r\n
+        \               <div class=\"step-1\">\r\n                    <div class=\"input\"
+        config=\"carro\" tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarModelos\">\r\n
+        \                       <select data-placeholder=\"Digite ou selecione a marca
+        do veiculo\" class=\"chosen-select\" id=\"selectMarcacarro\" data-no_results_text=\"Nada
+        encontrado com\" data-tipo=\"marca\" style=\"width:100%\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"step-2\">\r\n                    <div class=\"input\" config=\"carro\"
+        tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarAnoModelo\">\r\n                        <select
+        data-placeholder=\"Digite ou selecione o modelo do veiculo\" class=\"chosen-select\"
+        id=\"selectAnoModelocarro\" data-no_results_text=\"Nada encontrado com\" data-tipo=\"modelo\"
+        style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n                            <option
+        value=\"\"></option>\r\n                        </select>\r\n                        <div
+        class=\"help\">\r\n                            <a href=\"#\" title=\"\">?</a>\r\n
+        \                       </div>\r\n                    </div>\r\n\r\n                    <div
+        class=\"input\" config=\"carro\" tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarModelosAtravesDoAno\">\r\n
+        \                       <select data-placeholder=\"Digite ou selecione o ano
+        modelo do veiculo\" class=\"chosen-select\" id=\"selectAnocarro\" data-no_results_text=\"Nada
+        encontrado com\" data-tipo=\"ano\" style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"button pesquisa\">\r\n                    <a href=\"javascript:void(0)\"
+        class=\"text\" id=\"buttonPesquisarcarro\">\r\n                        Pesquisar\r\n
+        \                   </a>\r\n                </div>\r\n\r\n                <div
+        data-tipo=\"resultadoConsulta\" id=\"resultadoConsultacarroFiltros\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarcarro\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n        <article tipoconsulta=\"codigo\"\r\n                 config=\"carro\"\r\n
+        \                codtipoveiculo=\"1\"\r\n                 idselectcodigo=\"selectCodigocarroCodigoFipe\"\r\n
+        \                idselectcodigoano=\"selectCodigoAnocarroCodigoFipe\"\r\n
+        \                idselecttabelaref=\"selectTabelaReferenciacarroCodigoFipe\"\r\n
+        \                iddivresultado=\"resultadocarroCodigoFipe\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"carro\"\r\n                 idbutton=\"buttonPesquisarcarroPorCodigoFipe\"\r\n
+        \                idbuttonclear=\"buttonLimparPesquisarcarroPorCodigoFipe\"\r\n
+        \                codigo=\"\"\r\n                 nomeveiculo=\"Carros\"\r\n
+        \                codigoano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcacarro\" data-tabref=\"selectTabelaReferenciacarroConsultarPorCodigoFipe\"\r\n
+        \                   data-no_results_text=\"Nada encontrado com\" name=\"selectTabelaReferencia\"\r\n
+        \                   id=\"selectTabelaReferenciacarroCodigoFipe\" data-tipo=\"referencia\"
+        class=\"chosen-select\" style=\"width:165px !important;\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n\r\n            <div
+        class=\"line\"></div>\r\n            <div class=\"form codigo\">\r\n                <p>Por
+        favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p>\r\n\r\n
+        \               <div class=\"fLeft\">\r\n                    <div class=\"input
+        txt\" config=\"carro\" tipoconsulta=\"codigo\" urlconsulta=\"-ConsultarAnoModeloPeloCodigoFipe\">\r\n
+        \                       <input type=\"text\" name=\"txtCodigoFipe\" value=\"\"
+        id=\"selectCodigocarroCodigoFipe\" data-tipo=\"codigo\" data-nomeveiculo=\"Carros\"
+        placeholder=\"digite o código Fipe\" maxlength=\"8\" />\r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"fRight\">\r\n                    <div
+        class=\"input\" config=\"carro\" tipoconsulta=\"codigo\" urlconsulta=\"\">\r\n
+        \                       <select data-placeholder=\"Selecione o ano modelo\"
+        class=\"chosen-select\" id=\"selectCodigoAnocarroCodigoFipe\"\r\n                                data-tipo=\"codigoano\"
+        data-valor=\"\" style=\"width:215px\" tabindex=\"2\" data-no_results_text=\"Nada
+        encontrado com\">\r\n                            <option value=\"\"></option>\r\n
+        \                       </select>\r\n                    </div>\r\n                </div>\r\n
+        \               <div class=\"clear\"></div>\r\n                <div class=\"button
+        pesquisa\">\r\n                    <a href=\"javascript:void(0)\" class=\"text\"
+        id=\"buttonPesquisarcarroPorCodigoFipe\">Pesquisar</a>\r\n                </div>\r\n
+        \               <br>\r\n                <p>Caso não possua o Código Fipe,
+        <a class=\"link\" href=\"javascript:void(0)\" onclick=\"javascript:$('[data-slug=carro-comum]').trigger('click');\">clique
+        aqui</a> para pesquisar informando marca e modelo do veículo.</p>\r\n\r\n
+        \               <div data-tipo=\"resultadoConsulta\" id=\"resultadocarroCodigoFipe\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarcarroPorCodigoFipe\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n    </div>\r\n\r\n                        </li>\r\n
+        \                       <li class=\"ilustra\">\r\n                            <a
+        href=\"javascript:void(0)\" data-slug=\"caminhao\" data-ga data-category=\"indices_indicadores_subitens\"
+        data-action=\"veiculos\" data-label=\"caminhao\">\r\n                                <div
+        class=\"ico ico_caminhao\"></div>\r\n                                <div
+        class=\"title\">Consulta de Caminh&#245;es e Micro-&#212;nibus</div>\r\n                            </a>\r\n\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/modulos/prism.css\">\r\n
+        \   <link rel=\"stylesheet\" href=\"/Content/css/modulos/chosen.css\">\r\n
+        \   <div class=\"tab horizontal inside\" veiculos>\r\n        <nav>\r\n            <ul>\r\n
+        \               <li class=\"open\">\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abacaminhao-comum\" data-slug=\"caminhao-comum\" data-slugparent=\"caminhao\"
+        data-tabref=\"selectTabelaReferenciacaminhao\">Pesquisa comum</a>\r\n                </li>\r\n
+        \               <li>\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abacaminhao-codigo\" data-slug=\"caminhao-codigo\" data-slugparent=\"caminhao\"
+        data-tabref=\"selectTabelaReferenciacaminhaoConsultarPorCodigoFipe\">Pesquisa
+        por código Fipe</a>\r\n                </li>\r\n                <div class=\"clear\"></div>\r\n
+        \           </ul>\r\n        </nav>\r\n        <article class=\"open inside-search\"\r\n
+        \                config=\"caminhao\"\r\n                 tipoconsulta=\"tradicional\"\r\n
+        \                codtipoveiculo=\"3\"\r\n                 idselecttabelaref=\"selectTabelaReferenciacaminhao\"\r\n
+        \                idselectmarca=\"selectMarcacaminhao\"\r\n                 idselectmodeloveiculo=\"selectAnoModelocaminhao\"\r\n
+        \                idselectano=\"selectAnocaminhao\"\r\n                 iddivresultado=\"resultadoConsultacaminhaoFiltros\"\r\n
+        \                idbutton=\"buttonPesquisarcaminhao\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"caminhao\"\r\n                 idbuttonclear=\"buttonLimparPesquisarcaminhao\"\r\n
+        \                marca=\"\"\r\n                 modelo=\"\"\r\n                 nomeveiculo=\"Caminh&#245;es\"\r\n
+        \                ano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcacaminhao\"\r\n                    data-no_results_text=\"Nada
+        encontrado com\"\r\n                    data-tabref=\"selectTabelaReferenciacaminhao\"\r\n
+        \                   id=\"selectTabelaReferenciacaminhao\"\r\n                    class=\"chosen-select\"\r\n
+        \                   style=\"width:165px\" data-tipo=\"referencia\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n            <div
+        class=\"line\"></div>\r\n\r\n            <div class=\"form\">\r\n                <p>Informe
+        primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong>
+        e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar
+        a informação no campo \"busca\", dentro de cada opção do formulário da pesquisa.</p>\r\n\r\n
+        \               <div class=\"step-1\">\r\n                    <div class=\"input\"
+        config=\"caminhao\" tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarModelos\">\r\n
+        \                       <select data-placeholder=\"Digite ou selecione a marca
+        do veiculo\" class=\"chosen-select\" id=\"selectMarcacaminhao\" data-no_results_text=\"Nada
+        encontrado com\" data-tipo=\"marca\" style=\"width:100%\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"step-2\">\r\n                    <div class=\"input\" config=\"caminhao\"
+        tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarAnoModelo\">\r\n                        <select
+        data-placeholder=\"Digite ou selecione o modelo do veiculo\" class=\"chosen-select\"
+        id=\"selectAnoModelocaminhao\" data-no_results_text=\"Nada encontrado com\"
+        data-tipo=\"modelo\" style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                       <div class=\"help\">\r\n                            <a
+        href=\"#\" title=\"\">?</a>\r\n                        </div>\r\n                    </div>\r\n\r\n
+        \                   <div class=\"input\" config=\"caminhao\" tipoconsulta=\"tradicional\"
+        urlconsulta=\"-ConsultarModelosAtravesDoAno\">\r\n                        <select
+        data-placeholder=\"Digite ou selecione o ano modelo do veiculo\" class=\"chosen-select\"
+        id=\"selectAnocaminhao\" data-no_results_text=\"Nada encontrado com\" data-tipo=\"ano\"
+        style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n                            <option
+        value=\"\"></option>\r\n                        </select>\r\n                    </div>\r\n
+        \               </div>\r\n\r\n                <div class=\"button pesquisa\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\" id=\"buttonPesquisarcaminhao\">\r\n
+        \                       Pesquisar\r\n                    </a>\r\n                </div>\r\n\r\n
+        \               <div data-tipo=\"resultadoConsulta\" id=\"resultadoConsultacaminhaoFiltros\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarcaminhao\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n        <article tipoconsulta=\"codigo\"\r\n                 config=\"caminhao\"\r\n
+        \                codtipoveiculo=\"3\"\r\n                 idselectcodigo=\"selectCodigocaminhaoCodigoFipe\"\r\n
+        \                idselectcodigoano=\"selectCodigoAnocaminhaoCodigoFipe\"\r\n
+        \                idselecttabelaref=\"selectTabelaReferenciacaminhaoCodigoFipe\"\r\n
+        \                iddivresultado=\"resultadocaminhaoCodigoFipe\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"caminhao\"\r\n                 idbutton=\"buttonPesquisarcaminhaoPorCodigoFipe\"\r\n
+        \                idbuttonclear=\"buttonLimparPesquisarcaminhaoPorCodigoFipe\"\r\n
+        \                codigo=\"\"\r\n                 nomeveiculo=\"Caminh&#245;es\"\r\n
+        \                codigoano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcacaminhao\" data-tabref=\"selectTabelaReferenciacaminhaoConsultarPorCodigoFipe\"\r\n
+        \                   data-no_results_text=\"Nada encontrado com\" name=\"selectTabelaReferencia\"\r\n
+        \                   id=\"selectTabelaReferenciacaminhaoCodigoFipe\" data-tipo=\"referencia\"
+        class=\"chosen-select\" style=\"width:165px !important;\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n\r\n            <div
+        class=\"line\"></div>\r\n            <div class=\"form codigo\">\r\n                <p>Por
+        favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p>\r\n\r\n
+        \               <div class=\"fLeft\">\r\n                    <div class=\"input
+        txt\" config=\"caminhao\" tipoconsulta=\"codigo\" urlconsulta=\"-ConsultarAnoModeloPeloCodigoFipe\">\r\n
+        \                       <input type=\"text\" name=\"txtCodigoFipe\" value=\"\"
+        id=\"selectCodigocaminhaoCodigoFipe\" data-tipo=\"codigo\" data-nomeveiculo=\"Caminh&#245;es\"
+        placeholder=\"digite o código Fipe\" maxlength=\"8\" />\r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"fRight\">\r\n                    <div
+        class=\"input\" config=\"caminhao\" tipoconsulta=\"codigo\" urlconsulta=\"\">\r\n
+        \                       <select data-placeholder=\"Selecione o ano modelo\"
+        class=\"chosen-select\" id=\"selectCodigoAnocaminhaoCodigoFipe\"\r\n                                data-tipo=\"codigoano\"
+        data-valor=\"\" style=\"width:215px\" tabindex=\"2\" data-no_results_text=\"Nada
+        encontrado com\">\r\n                            <option value=\"\"></option>\r\n
+        \                       </select>\r\n                    </div>\r\n                </div>\r\n
+        \               <div class=\"clear\"></div>\r\n                <div class=\"button
+        pesquisa\">\r\n                    <a href=\"javascript:void(0)\" class=\"text\"
+        id=\"buttonPesquisarcaminhaoPorCodigoFipe\">Pesquisar</a>\r\n                </div>\r\n
+        \               <br>\r\n                <p>Caso não possua o Código Fipe,
+        <a class=\"link\" href=\"javascript:void(0)\" onclick=\"javascript:$('[data-slug=caminhao-comum]').trigger('click');\">clique
+        aqui</a> para pesquisar informando marca e modelo do veículo.</p>\r\n\r\n
+        \               <div data-tipo=\"resultadoConsulta\" id=\"resultadocaminhaoCodigoFipe\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarcaminhaoPorCodigoFipe\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n    </div>\r\n\r\n                        </li>\r\n
+        \                       <li class=\"ilustra\">\r\n                            <a
+        href=\"javascript:void(0)\" data-slug=\"moto\" data-ga data-category=\"indices_indicadores_subitens\"
+        data-action=\"veiculos\" data-label=\"moto\">\r\n                                <div
+        class=\"ico ico_moto\"></div>\r\n                                <div class=\"title\">Consulta
+        de Motos</div>\r\n                            </a>\r\n\r\n    <link rel=\"stylesheet\"
+        href=\"/Content/css/modulos/prism.css\">\r\n    <link rel=\"stylesheet\" href=\"/Content/css/modulos/chosen.css\">\r\n
+        \   <div class=\"tab horizontal inside\" veiculos>\r\n        <nav>\r\n            <ul>\r\n
+        \               <li class=\"open\">\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abamoto-comum\" data-slug=\"moto-comum\" data-slugparent=\"moto\"
+        data-tabref=\"selectTabelaReferenciamoto\">Pesquisa comum</a>\r\n                </li>\r\n
+        \               <li>\r\n                    <a href=\"javascript:void(0)\"
+        pesquisa data-aba=\"Abamoto-codigo\" data-slug=\"moto-codigo\" data-slugparent=\"moto\"
+        data-tabref=\"selectTabelaReferenciamotoConsultarPorCodigoFipe\">Pesquisa
+        por código Fipe</a>\r\n                </li>\r\n                <div class=\"clear\"></div>\r\n
+        \           </ul>\r\n        </nav>\r\n        <article class=\"open inside-search\"\r\n
+        \                config=\"moto\"\r\n                 tipoconsulta=\"tradicional\"\r\n
+        \                codtipoveiculo=\"2\"\r\n                 idselecttabelaref=\"selectTabelaReferenciamoto\"\r\n
+        \                idselectmarca=\"selectMarcamoto\"\r\n                 idselectmodeloveiculo=\"selectAnoModelomoto\"\r\n
+        \                idselectano=\"selectAnomoto\"\r\n                 iddivresultado=\"resultadoConsultamotoFiltros\"\r\n
+        \                idbutton=\"buttonPesquisarmoto\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"moto\"\r\n                 idbuttonclear=\"buttonLimparPesquisarmoto\"\r\n
+        \                marca=\"\"\r\n                 modelo=\"\"\r\n                 nomeveiculo=\"Motos\"\r\n
+        \                ano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcamoto\"\r\n                    data-no_results_text=\"Nada
+        encontrado com\"\r\n                    data-tabref=\"selectTabelaReferenciamoto\"\r\n
+        \                   id=\"selectTabelaReferenciamoto\"\r\n                    class=\"chosen-select\"\r\n
+        \                   style=\"width:165px\" data-tipo=\"referencia\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n            <div
+        class=\"line\"></div>\r\n\r\n            <div class=\"form\">\r\n                <p>Informe
+        primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong>
+        e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar
+        a informação no campo \"busca\", dentro de cada opção do formulário da pesquisa.</p>\r\n\r\n
+        \               <div class=\"step-1\">\r\n                    <div class=\"input\"
+        config=\"moto\" tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarModelos\">\r\n
+        \                       <select data-placeholder=\"Digite ou selecione a marca
+        do veiculo\" class=\"chosen-select\" id=\"selectMarcamoto\" data-no_results_text=\"Nada
+        encontrado com\" data-tipo=\"marca\" style=\"width:100%\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"step-2\">\r\n                    <div class=\"input\" config=\"moto\"
+        tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarAnoModelo\">\r\n                        <select
+        data-placeholder=\"Digite ou selecione o modelo do veiculo\" class=\"chosen-select\"
+        id=\"selectAnoModelomoto\" data-no_results_text=\"Nada encontrado com\" data-tipo=\"modelo\"
+        style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n                            <option
+        value=\"\"></option>\r\n                        </select>\r\n                        <div
+        class=\"help\">\r\n                            <a href=\"#\" title=\"\">?</a>\r\n
+        \                       </div>\r\n                    </div>\r\n\r\n                    <div
+        class=\"input\" config=\"moto\" tipoconsulta=\"tradicional\" urlconsulta=\"-ConsultarModelosAtravesDoAno\">\r\n
+        \                       <select data-placeholder=\"Digite ou selecione o ano
+        modelo do veiculo\" class=\"chosen-select\" id=\"selectAnomoto\" data-no_results_text=\"Nada
+        encontrado com\" data-tipo=\"ano\" style=\"width:215px\" tabindex=\"2\" data-valor=\"\">\r\n
+        \                           <option value=\"\"></option>\r\n                        </select>\r\n
+        \                   </div>\r\n                </div>\r\n\r\n                <div
+        class=\"button pesquisa\">\r\n                    <a href=\"javascript:void(0)\"
+        class=\"text\" id=\"buttonPesquisarmoto\">\r\n                        Pesquisar\r\n
+        \                   </a>\r\n                </div>\r\n\r\n                <div
+        data-tipo=\"resultadoConsulta\" id=\"resultadoConsultamotoFiltros\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarmoto\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n        <article tipoconsulta=\"codigo\"\r\n                 config=\"moto\"\r\n
+        \                codtipoveiculo=\"2\"\r\n                 idselectcodigo=\"selectCodigomotoCodigoFipe\"\r\n
+        \                idselectcodigoano=\"selectCodigoAnomotoCodigoFipe\"\r\n                 idselecttabelaref=\"selectTabelaReferenciamotoCodigoFipe\"\r\n
+        \                iddivresultado=\"resultadomotoCodigoFipe\"\r\n                 urlpesquisa=\"-ConsultarValorComTodosParametros\"\r\n
+        \                tipoveiculo=\"moto\"\r\n                 idbutton=\"buttonPesquisarmotoPorCodigoFipe\"\r\n
+        \                idbuttonclear=\"buttonLimparPesquisarmotoPorCodigoFipe\"\r\n
+        \                codigo=\"\"\r\n                 nomeveiculo=\"Motos\"\r\n
+        \                codigoano=\"\">\r\n\r\n            <p>Sua pesquisa será realizada
+        de acordo com o seguinte período de referência:</p>\r\n            <select
+        data-selectmarca=\"selectMarcamoto\" data-tabref=\"selectTabelaReferenciamotoConsultarPorCodigoFipe\"\r\n
+        \                   data-no_results_text=\"Nada encontrado com\" name=\"selectTabelaReferencia\"\r\n
+        \                   id=\"selectTabelaReferenciamotoCodigoFipe\" data-tipo=\"referencia\"
+        class=\"chosen-select\" style=\"width:165px !important;\">\r\n                    <option
+        value=\"183\">setembro/2015 </option>\r\n                    <option value=\"182\">agosto/2015
+        </option>\r\n                    <option value=\"181\">julho/2015 </option>\r\n
+        \                   <option value=\"180\">junho/2015 </option>\r\n                    <option
+        value=\"179\">maio/2015 </option>\r\n                    <option value=\"178\">abril/2015
+        </option>\r\n                    <option value=\"176\">mar&#231;o/2015 </option>\r\n
+        \                   <option value=\"175\">fevereiro/2015 </option>\r\n                    <option
+        value=\"174\">janeiro/2015 </option>\r\n                    <option value=\"173\">dezembro/2014
+        </option>\r\n                    <option value=\"172\">novembro/2014 </option>\r\n
+        \                   <option value=\"171\">outubro/2014 </option>\r\n                    <option
+        value=\"170\">setembro/2014 </option>\r\n                    <option value=\"169\">agosto/2014
+        </option>\r\n                    <option value=\"168\">julho/2014 </option>\r\n
+        \                   <option value=\"167\">junho/2014 </option>\r\n                    <option
+        value=\"166\">maio/2014 </option>\r\n                    <option value=\"165\">abril/2014
+        </option>\r\n                    <option value=\"164\">mar&#231;o/2014 </option>\r\n
+        \                   <option value=\"163\">fevereiro/2014 </option>\r\n                    <option
+        value=\"162\">janeiro/2014 </option>\r\n                    <option value=\"161\">dezembro/2013
+        </option>\r\n                    <option value=\"160\">novembro/2013 </option>\r\n
+        \                   <option value=\"159\">outubro/2013 </option>\r\n                    <option
+        value=\"158\">setembro/2013 </option>\r\n                    <option value=\"157\">agosto/2013
+        </option>\r\n                    <option value=\"156\">julho/2013 </option>\r\n
+        \                   <option value=\"155\">junho/2013 </option>\r\n                    <option
+        value=\"154\">maio/2013 </option>\r\n                    <option value=\"153\">abril/2013
+        </option>\r\n                    <option value=\"152\">mar&#231;o/2013 </option>\r\n
+        \                   <option value=\"151\">fevereiro/2013 </option>\r\n                    <option
+        value=\"150\">janeiro/2013 </option>\r\n                    <option value=\"149\">dezembro/2012
+        </option>\r\n                    <option value=\"148\">novembro/2012 </option>\r\n
+        \                   <option value=\"147\">outubro/2012 </option>\r\n                    <option
+        value=\"146\">setembro/2012 </option>\r\n                    <option value=\"145\">agosto/2012
+        </option>\r\n                    <option value=\"144\">julho/2012 </option>\r\n
+        \                   <option value=\"143\">junho/2012 </option>\r\n                    <option
+        value=\"142\">maio/2012 </option>\r\n                    <option value=\"141\">abril/2012
+        </option>\r\n                    <option value=\"140\">mar&#231;o/2012 </option>\r\n
+        \                   <option value=\"139\">fevereiro/2012 </option>\r\n                    <option
+        value=\"138\">janeiro/2012 </option>\r\n                    <option value=\"137\">dezembro/2011
+        </option>\r\n                    <option value=\"136\">novembro/2011 </option>\r\n
+        \                   <option value=\"135\">outubro/2011 </option>\r\n                    <option
+        value=\"134\">setembro/2011 </option>\r\n                    <option value=\"133\">agosto/2011
+        </option>\r\n                    <option value=\"132\">julho/2011 </option>\r\n
+        \                   <option value=\"131\">junho/2011 </option>\r\n                    <option
+        value=\"130\">maio/2011 </option>\r\n                    <option value=\"129\">abril/2011
+        </option>\r\n                    <option value=\"128\">mar&#231;o/2011 </option>\r\n
+        \                   <option value=\"127\">fevereiro/2011 </option>\r\n                    <option
+        value=\"126\">janeiro/2011 </option>\r\n                    <option value=\"125\">dezembro/2010
+        </option>\r\n                    <option value=\"124\">novembro/2010 </option>\r\n
+        \                   <option value=\"123\">outubro/2010 </option>\r\n                    <option
+        value=\"122\">setembro/2010 </option>\r\n                    <option value=\"121\">agosto/2010
+        </option>\r\n                    <option value=\"120\">julho/2010 </option>\r\n
+        \                   <option value=\"119\">junho/2010 </option>\r\n                    <option
+        value=\"118\">maio/2010 </option>\r\n                    <option value=\"117\">abril/2010
+        </option>\r\n                    <option value=\"61\">mar&#231;o/2010 </option>\r\n
+        \                   <option value=\"60\">fevereiro/2010 </option>\r\n                    <option
+        value=\"59\">janeiro/2010 </option>\r\n                    <option value=\"58\">dezembro/2009
+        </option>\r\n                    <option value=\"57\">novembro/2009 </option>\r\n
+        \                   <option value=\"56\">outubro/2009 </option>\r\n                    <option
+        value=\"55\">setembro/2009 </option>\r\n                    <option value=\"54\">agosto/2009
+        </option>\r\n                    <option value=\"53\">julho/2009 </option>\r\n
+        \                   <option value=\"52\">junho/2009 </option>\r\n                    <option
+        value=\"51\">maio/2009 </option>\r\n                    <option value=\"50\">abril/2009
+        </option>\r\n                    <option value=\"49\">mar&#231;o/2009 </option>\r\n
+        \                   <option value=\"48\">fevereiro/2009 </option>\r\n                    <option
+        value=\"47\">janeiro/2009 </option>\r\n                    <option value=\"46\">dezembro/2008
+        </option>\r\n                    <option value=\"45\">novembro/2008 </option>\r\n
+        \                   <option value=\"44\">outubro/2008 </option>\r\n                    <option
+        value=\"43\">setembro/2008 </option>\r\n                    <option value=\"42\">agosto/2008
+        </option>\r\n                    <option value=\"41\">julho/2008 </option>\r\n
+        \                   <option value=\"40\">junho/2008 </option>\r\n                    <option
+        value=\"38\">maio/2008 </option>\r\n                    <option value=\"37\">abril/2008
+        </option>\r\n                    <option value=\"36\">mar&#231;o/2008 </option>\r\n
+        \                   <option value=\"35\">fevereiro/2008 </option>\r\n                    <option
+        value=\"34\">janeiro/2008 </option>\r\n                    <option value=\"33\">dezembro/2007
+        </option>\r\n                    <option value=\"32\">novembro/2007 </option>\r\n
+        \                   <option value=\"31\">outubro/2007 </option>\r\n                    <option
+        value=\"30\">setembro/2007 </option>\r\n                    <option value=\"29\">agosto/2007
+        </option>\r\n                    <option value=\"28\">julho/2007 </option>\r\n
+        \                   <option value=\"27\">junho/2007 </option>\r\n                    <option
+        value=\"26\">maio/2007 </option>\r\n                    <option value=\"24\">abril/2007
+        </option>\r\n                    <option value=\"23\">mar&#231;o/2007 </option>\r\n
+        \                   <option value=\"21\">fevereiro/2007 </option>\r\n                    <option
+        value=\"20\">janeiro/2007 </option>\r\n                    <option value=\"19\">dezembro/2006
+        </option>\r\n                    <option value=\"18\">novembro/2006 </option>\r\n
+        \                   <option value=\"17\">outubro/2006 </option>\r\n                    <option
+        value=\"16\">setembro/2006 </option>\r\n                    <option value=\"15\">agosto/2006
+        </option>\r\n                    <option value=\"14\">julho/2006 </option>\r\n
+        \                   <option value=\"13\">junho/2006 </option>\r\n                    <option
+        value=\"12\">maio/2006 </option>\r\n                    <option value=\"11\">abril/2006
+        </option>\r\n                    <option value=\"10\">mar&#231;o/2006 </option>\r\n
+        \                   <option value=\"9\">fevereiro/2006 </option>\r\n                    <option
+        value=\"8\">janeiro/2006 </option>\r\n                    <option value=\"111\">dezembro/2005
+        </option>\r\n                    <option value=\"6\">novembro/2005 </option>\r\n
+        \                   <option value=\"2\">outubro/2005 </option>\r\n                    <option
+        value=\"1\">setembro/2005 </option>\r\n                    <option value=\"7\">agosto/2005
+        </option>\r\n                    <option value=\"25\">julho/2005 </option>\r\n
+        \                   <option value=\"116\">junho/2005 </option>\r\n                    <option
+        value=\"115\">maio/2005 </option>\r\n                    <option value=\"114\">abril/2005
+        </option>\r\n                    <option value=\"113\">mar&#231;o/2005 </option>\r\n
+        \                   <option value=\"112\">fevereiro/2005 </option>\r\n                    <option
+        value=\"110\">janeiro/2005 </option>\r\n                    <option value=\"101\">dezembro/2004
+        </option>\r\n                    <option value=\"100\">novembro/2004 </option>\r\n
+        \                   <option value=\"99\">outubro/2004 </option>\r\n                    <option
+        value=\"109\">setembro/2004 </option>\r\n                    <option value=\"108\">agosto/2004
+        </option>\r\n                    <option value=\"107\">julho/2004 </option>\r\n
+        \                   <option value=\"106\">junho/2004 </option>\r\n                    <option
+        value=\"105\">maio/2004 </option>\r\n                    <option value=\"104\">abril/2004
+        </option>\r\n                    <option value=\"103\">mar&#231;o/2004 </option>\r\n
+        \                   <option value=\"102\">fevereiro/2004 </option>\r\n                    <option
+        value=\"98\">janeiro/2004 </option>\r\n                    <option value=\"89\">dezembro/2003
+        </option>\r\n                    <option value=\"88\">novembro/2003 </option>\r\n
+        \                   <option value=\"87\">outubro/2003 </option>\r\n                    <option
+        value=\"97\">setembro/2003 </option>\r\n                    <option value=\"96\">agosto/2003
+        </option>\r\n                    <option value=\"95\">julho/2003 </option>\r\n
+        \                   <option value=\"94\">junho/2003 </option>\r\n                    <option
+        value=\"93\">maio/2003 </option>\r\n                    <option value=\"92\">abril/2003
+        </option>\r\n                    <option value=\"91\">mar&#231;o/2003 </option>\r\n
+        \                   <option value=\"90\">fevereiro/2003 </option>\r\n                    <option
+        value=\"86\">janeiro/2003 </option>\r\n                    <option value=\"77\">dezembro/2002
+        </option>\r\n                    <option value=\"76\">novembro/2002 </option>\r\n
+        \                   <option value=\"75\">outubro/2002 </option>\r\n                    <option
+        value=\"85\">setembro/2002 </option>\r\n                    <option value=\"84\">agosto/2002
+        </option>\r\n                    <option value=\"83\">julho/2002 </option>\r\n
+        \                   <option value=\"82\">junho/2002 </option>\r\n                    <option
+        value=\"81\">maio/2002 </option>\r\n                    <option value=\"80\">abril/2002
+        </option>\r\n                    <option value=\"79\">mar&#231;o/2002 </option>\r\n
+        \                   <option value=\"78\">fevereiro/2002 </option>\r\n                    <option
+        value=\"74\">janeiro/2002 </option>\r\n                    <option value=\"66\">dezembro/2001
+        </option>\r\n                    <option value=\"65\">novembro/2001 </option>\r\n
+        \                   <option value=\"64\">outubro/2001 </option>\r\n                    <option
+        value=\"73\">setembro/2001 </option>\r\n                    <option value=\"72\">agosto/2001
+        </option>\r\n                    <option value=\"71\">julho/2001 </option>\r\n
+        \                   <option value=\"70\">junho/2001 </option>\r\n                    <option
+        value=\"69\">maio/2001 </option>\r\n                    <option value=\"68\">abril/2001
+        </option>\r\n                    <option value=\"67\">mar&#231;o/2001 </option>\r\n
+        \                   <option value=\"63\">fevereiro/2001 </option>\r\n                    <option
+        value=\"62\">janeiro/2001 </option>\r\n            </select>\r\n\r\n            <div
+        class=\"line\"></div>\r\n            <div class=\"form codigo\">\r\n                <p>Por
+        favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p>\r\n\r\n
+        \               <div class=\"fLeft\">\r\n                    <div class=\"input
+        txt\" config=\"moto\" tipoconsulta=\"codigo\" urlconsulta=\"-ConsultarAnoModeloPeloCodigoFipe\">\r\n
+        \                       <input type=\"text\" name=\"txtCodigoFipe\" value=\"\"
+        id=\"selectCodigomotoCodigoFipe\" data-tipo=\"codigo\" data-nomeveiculo=\"Motos\"
+        placeholder=\"digite o código Fipe\" maxlength=\"8\" />\r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"fRight\">\r\n                    <div
+        class=\"input\" config=\"moto\" tipoconsulta=\"codigo\" urlconsulta=\"\">\r\n
+        \                       <select data-placeholder=\"Selecione o ano modelo\"
+        class=\"chosen-select\" id=\"selectCodigoAnomotoCodigoFipe\"\r\n                                data-tipo=\"codigoano\"
+        data-valor=\"\" style=\"width:215px\" tabindex=\"2\" data-no_results_text=\"Nada
+        encontrado com\">\r\n                            <option value=\"\"></option>\r\n
+        \                       </select>\r\n                    </div>\r\n                </div>\r\n
+        \               <div class=\"clear\"></div>\r\n                <div class=\"button
+        pesquisa\">\r\n                    <a href=\"javascript:void(0)\" class=\"text\"
+        id=\"buttonPesquisarmotoPorCodigoFipe\">Pesquisar</a>\r\n                </div>\r\n
+        \               <br>\r\n                <p>Caso não possua o Código Fipe,
+        <a class=\"link\" href=\"javascript:void(0)\" onclick=\"javascript:$('[data-slug=moto-comum]').trigger('click');\">clique
+        aqui</a> para pesquisar informando marca e modelo do veículo.</p>\r\n\r\n
+        \               <div data-tipo=\"resultadoConsulta\" id=\"resultadomotoCodigoFipe\"></div>\r\n\r\n
+        \               <div class=\"button pesquisa clear\" id=\"buttonLimparPesquisarmotoPorCodigoFipe\">\r\n
+        \                   <a href=\"javascript:void(0)\" class=\"text\">\r\n                        Limpar
+        Pesquisa\r\n                    </a>\r\n                </div>\r\n            </div>\r\n
+        \       </article>\r\n    </div>\r\n\r\n                        </li>\r\n
+        \               </ul>\r\n            </div>\r\n\r\n    <div>\r\n        <br>\r\n
+        \       <h3>Entre em contato</h3>\r\n        <p>Entre em contato conosco pelo
+        e-mail <a href=\"mailto:veiculos@fipe.org.br\">veiculos@fipe.org.br</a>.</p>\r\n
+        \   </div>\r\n\r\n\r\n         <div class=\"button top\">\r\n    <a href=\"javascript:void(0)\"
+        data-ga data-category=\"footer\" data-action=\"clique\" data-label=\"voltar_topo\">\r\n
+        \       <figure>\r\n            <img src=\"http://www.fipe.org.br/Content/img/btn_top.png\"
+        alt=\"\" />\r\n        </figure>\r\n    </a>\r\n</div>\r\n\r\n    </div>\r\n
+        \   <div class=\"clear\"></div>\r\n</section>\r\n\r\n\r\n<input type=\"hidden\"
+        id=\"urlBase\" value=\"/IndicesConsulta\" />\r\n<input type=\"hidden\" id=\"urlRota\"
+        value=\"/pt-br/indices/veiculos\" />\r\n<input type=\"hidden\" id=\"tabelaReferenciaAtualAno\"
+        value=\"2015\" />\r\n<input type=\"hidden\" id=\"tabelaReferenciaAtualMes\"
+        value=\"9\" />\r\n\r\n\r\n<div style=\"display: none\" id=\"tabelaResultadoPesquisa\">\r\n<div
+        class=\"line\"></div>\r\n<div class=\"actions\">\r\n    <ul>\r\n        \r\n
+        \       <li data-ico=\"ico_print.png\">\r\n            <a href=\"javascript:void(0)\"
+        onclick=\"printTable(this)\">Imprimir</a>\r\n        </li>\r\n                <li
+        data-ico=\"ico_url.png\">\r\n            <a href=\"javascript:void(0)\" id=\"linkCopyUrl\"
+        onclick=\"openCopyURL(this)\">\r\n                <div class=\"input txt\">\r\n
+        \                   <input type=\"text\" name=\"copyUrl\" id=\"copyUrl\" value=\"{url-link}\"
+        \  />\r\n                </div>\r\n                <span>Copiar Url</span>\r\n
+        \           </a>\r\n        </li>\r\n        \r\n    </ul>\r\n</div>\r\n<div
+        class=\"clear\"></div>\r\n    <table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\">\r\n
+        \       <tbody>\r\n            <tr>\r\n                <td class=\"noborder\"><p>Mês
+        de referência:</p></td>\r\n                <td><p>{mes-de-referencia}</p></td>\r\n
+        \           </tr>\r\n            <tr>\r\n                <td class=\"noborder\"><p>Código
+        Fipe:</p></td>\r\n                <td><p>{codigo-fipe}</p></td>\r\n            </tr>\r\n
+        \           <tr>\r\n                <td class=\"noborder\"><p>Marca:</p></td>\r\n
+        \               <td><p>{marca}</p></td>\r\n            </tr>\r\n            <tr>\r\n
+        \               <td class=\"noborder\"><p>Modelo:</p></td>\r\n                <td><p>{modelo}</p></td>\r\n
+        \           </tr>\r\n            <tr>\r\n                <td class=\"noborder\"><p>Ano
+        Modelo:</p></td>\r\n                <td><p>{ano-modelo}</p></td>\r\n            </tr>\r\n
+        \           <tr>\r\n                <td class=\"noborder\"><p>Autenticação</p></td>\r\n
+        \               <td><p>{autenticacao}</p></td>\r\n            </tr>\r\n            <tr>\r\n
+        \               <td class=\"noborder\"><p>Data da consulta</p></td>\r\n                <td><p>{data-consulta}</p></td>\r\n
+        \           </tr>\r\n            <tr class=\"last\">\r\n                <td
+        class=\"noborder\"><p>Preço Médio</p></td>\r\n                <td><p>{preco-medio}</p></td>\r\n
+        \           </tr>\r\n        </tbody>\r\n    </table>\r\n</div>\r\n<script
+        src=\"/Content/js/modulos/indices_function.min.js\" type=\"text/javascript\"></script>\r\n<script
+        src=\"/Content/js/modulos/veiculos_function.min.js\" type=\"text/javascript\"></script>\r\n<script
+        src=\"/Content/js/modulos/chosen.jquery.min.js\" type=\"text/javascript\"></script>\r\n<script
+        src=\"/Content/js/modulos/prism.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n<script
+        src=\"/Content/js/jquery.maskedinput.min.js\" type=\"text/javascript\"></script>\r\n<script>\r\n
+        \   var id = '';\r\n    $(window).load(function () {\r\n    });\r\n</script>\r\n<form
+        action=\"/IndicesConsulta-_DownloadParaExcel\" id=\"ExportarExcelForm\" method=\"post\"><input
+        id=\"NomeArquivo\" name=\"NomeArquivo\" type=\"hidden\" value=\"\" /><input
+        id=\"TabelaHtml\" name=\"TabelaHtml\" type=\"hidden\" value=\"\" /></form>\r\n\r\n
+        \       \r\n<footer id=\"footer_main\">\r\n    <section>\r\n        <div class=\"item\">\r\n
+        \           \r\n            <h3>Acesso R&#225;pido</h3>\r\n            <ul>\r\n
+        \                   <li>\r\n                         <a href=\"http://www.fipe.org.br/pt-br/indices\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"indices\" data-slug=\"indices\">Índices e Indicadores</a>\r\n
+        \                   </li>\r\n                    <li>\r\n                         <a
+        href=\"http://www.fipe.org.br/pt-br/ensino\" \r\n                             data-ga
+        data-category=\"footer_ajuda\" data-action=\"clique\" data-label=\"ensino\"
+        data-slug=\"ensino\">Ensino</a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"http://www.fipe.org.br/pt-br/projetos-e-pesquisas\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"projetos-e-pesquisas\" data-slug=\"projetos-e-pesquisas\">Projetos
+        e Pesquisas</a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"http://www.fipe.org.br/pt-br/publicacoes\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"publicacoes\" data-slug=\"publicacoes\">Publicações</a>\r\n                    </li>\r\n
+        \                   <li>\r\n                         <a href=\"http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"sobre-a-fipe\" data-slug=\"sobre-a-fipe\">Sobre a Fipe</a>\r\n
+        \                   </li>\r\n                    <li>\r\n                         <a
+        href=\"http://www.fipe.org.br/pt-br/noticias\" \r\n                             data-ga
+        data-category=\"footer_ajuda\" data-action=\"clique\" data-label=\"noticias\"
+        data-slug=\"noticias\">Notícias</a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"http://www.fipe.org.br/pt-br/institucional/contato/\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"contato\" data-slug=\"contato\">Contato</a>\r\n                    </li>\r\n
+        \                   <li>\r\n                         <a href=\"http://www.fipe.org.br/pt-br/institucional/mapa-do-site/\"
+        \r\n                             data-ga data-category=\"footer_ajuda\" data-action=\"clique\"
+        data-label=\"mapa-do-site\" data-slug=\"mapa-do-site\">Mapa do Site</a>\r\n
+        \                   </li>\r\n            </ul>\r\n        </div>\r\n        <div
+        class=\"item\">\r\n            \r\n            <h3>Links Importantes</h3>\r\n
+        \           <ul>\r\n                    <li>\r\n                         <a
+        href=\"http://www.fea.usp.br/feaecon/\"  target=_blank class=external-links-light\r\n
+        \                            data-ga data-category=\"footer_links_importantes\"
+        data-action=\"clique\" data-label=\"rodape-link-econ-fea-usp\" data-slug=\"rodape-link-econ-fea-usp\">Departamento
+        de Economia<br />da FEA-USP</a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"http://www.fea.usp.br/\"  target=_blank
+        class=external-links-light\r\n                             data-ga data-category=\"footer_links_importantes\"
+        data-action=\"clique\" data-label=\"rodape-link-feausp\" data-slug=\"rodape-link-feausp\">Faculdade
+        de Economia,<br />Administração de Contabilidade<br />da Universidade de São
+        Paulo</a>\r\n                    </li>\r\n                    <li>\r\n                         <a
+        href=\"http://www.usp.br/\"  target=_blank class=external-links-light\r\n
+        \                            data-ga data-category=\"footer_links_importantes\"
+        data-action=\"clique\" data-label=\"rodape-link-usp\" data-slug=\"rodape-link-usp\">Universidade
+        de São Paulo</a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"\"  \r\n                             data-ga
+        data-category=\"footer_links_importantes\" data-action=\"clique\" data-label=\"rodape-link-laurin\"
+        data-slug=\"rodape-link-laurin\"></a>\r\n                    </li>\r\n                    <li>\r\n
+        \                        <a href=\"\"  \r\n                             data-ga
+        data-category=\"footer_links_importantes\" data-action=\"clique\" data-label=\"rodape-link-sicap\"
+        data-slug=\"rodape-link-sicap\"></a>\r\n                    </li>\r\n            </ul>\r\n
+        \       </div>\r\n        <div class=\"item no-background\">\r\n            <h3>Receba
+        novidades</h3>\r\n            <form id=\"frmNews\" name=\"frmNews\">\r\n                <input
+        name=\"__RequestVerificationToken\" type=\"hidden\" value=\"9ZVMc12FBpu-zbR9m1B00dDP-LfGDL-fbaeRMUJWRw60yePTrac9CxLCjZIKoMstLw-F9WY4rUA9FBqmnZy82UIVggzXPEaPGwg6XbxzbYc1\"
+        />\r\n                <input type=\"hidden\" name=\"recnov_sessao\" id=\"recnov_sessao\"
+        />\r\n                <div class=\"input txt transparent\">\r\n                    <input
+        type=\"text\" name=\"recnov_nome\" id=\"recnov_nome\" placeholder=\"nome completo\"
+        />\r\n                </div>\r\n                <div class=\"input txt transparent\">\r\n
+        \                   <input type=\"text\" name=\"recnov_email\" id=\"recnov_email\"
+        placeholder=\"e-mail\" />\r\n                </div>\r\n                <input
+        type=\"hidden\" id=\"recnov_url\" value=\"/NewsLetter-Cadastrar\" />\r\n                <div
+        class=\"button enviar\">\r\n                    <a href=\"#\" class=\"text\"
+        id=\"recnov_btnEnviar\" data-ga data-category=\"footer_newsletter\" data-action=\"clique\"
+        data-label=\"Enviar\" name=\"recnov_btnEnviar\">\r\n                    Enviar\r\n
+        \                   </a>\r\n                </div>\r\n            </form>\r\n
+        \           <div class=\"socialList\">\r\n                <ul>\r\n                    <li>\r\n
+        \                       <a href=\"http://www.facebook.com/fipecursos\" target=\"_blank\">\r\n
+        \                           <img src=\"/Content/img/social/ico_face.png\"
+        alt=\"\" title=\"\" />\r\n                        </a>\r\n                    </li>\r\n
+        \                   <li>\r\n                        <a href=\"http://www.twitter.com/fipecursos\"
+        target=\"_blank\">\r\n                            <img src=\"/Content/img/social/ico_twitter.png\"
+        alt=\"\" title=\"\" />\r\n                        </a>\r\n                    </li>\r\n
+        \                   <li>\r\n                        <a href=\"http://www.youtube.com/fipecursos\"
+        target=\"_blank\">\r\n                            <img src=\"/Content/img/social/ico_youtube.png\"
+        alt=\"\" title=\"\" />\r\n                        </a>\r\n                    </li>\r\n
+        \                   <li>\r\n                        <a href=\"http://www.linkedin.com/company/fipe---funda-o-instituto-de-pesquisas-econ-micas\"
+        target=\"_blank\">\r\n                            <img src=\"/Content/img/social/ico_linkedin.png\"
+        alt=\"\" title=\"\" />\r\n                        </a>\r\n                    </li>\r\n
+        \               </ul>\r\n            </div>\r\n        </div>\r\n        <div
+        class=\"clear\"></div>\r\n\r\n        <h6>© 2015 Todos os direitos reservados
+        &#224; Fipe</h6>\r\n    </section>\r\n</footer>\r\n\r\n        \r\n        \r\n\r\n
+        \       <div class=\"bg_black\"></div>\r\n        <div class=\"modal\">\r\n
+        \           <div class=\"btnClose\"></div>\r\n            <div class=\"content\"></div>\r\n
+        \       </div>\r\n\r\n        <!--[if lt IE 9]>\r\n            <link rel=\"stylesheet\"
+        href=\"/Content/css/ie8-fix.css\">\r\n            <script type=\"text/javascript\"
+        src=\"/Content/js/vendor/placeholders.min.js\"></script>\r\n        <![endif]-->\r\n
+        \       <div id=\"containerExport\" style=\"display:none\"></div>\r\n    </div>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Wed, 23 Sep 2015 04:19:23 GMT
+recorded_with: VCR 2.9.3

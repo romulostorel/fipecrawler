@@ -17,7 +17,8 @@ RSpec.describe Catcher::Vehicle do
         {"Label"=>"1993 Gasolina", "Value"=>"1993-1"},
         {"Label"=>"1992 Gasolina", "Value"=>"1992-1"},
         {"Label"=>"1991 Gasolina", "Value"=>"1991-1"}],
-      :brand_id=>1}
+      :brand_id=>1,
+      :type => 1}
   end
 
   subject { described_class }

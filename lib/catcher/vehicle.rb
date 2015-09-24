@@ -31,7 +31,7 @@ class Catcher::Vehicle
   end
 
   def get_and_parse_json
-    JSON.parse(get_json).merge(brand_id: @brand_id)
+    JSON.parse(get_json).merge(brand_id: @brand_id, type: @type)
   end
 
   def post(params:)

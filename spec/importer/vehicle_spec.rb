@@ -32,4 +32,13 @@ RSpec.describe Importer::Vehicle do
     vehicle = Models::Vehicle.where(name: 'Integra GS 1.8').all[0]
     expect(vehicle.brand.name).to eq 'Acura'
   end
+
+  it 'correct imports vehicles with type' do
+    VCR.use_cassette('vehicles', :match_requests_on => [:method, :uri]) do
+      subject.import
+    end
+
+    vehicle = Models::Vehicle.where(name: 'Integra GS 1.8').all[0]
+    expect(vehicle.type).to eq 1
+  end
 end
