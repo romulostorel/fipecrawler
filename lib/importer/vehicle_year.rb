@@ -10,7 +10,6 @@ class Importer::VehicleYear
 
     @model = Models::VehicleYear
     @catcher = Catcher::VehicleYear
-    @importer = Importer::VehicleYear
     @parser = Parser::VehicleYear
   end
 
