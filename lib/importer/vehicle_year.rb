@@ -1,5 +1,4 @@
 require 'catcher/vehicle_year'
-require 'importer/vehicle_year'
 require 'parser/vehicle_year'
 
 class Importer::VehicleYear
