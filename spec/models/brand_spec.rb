@@ -16,4 +16,12 @@ describe Models::Brand do
 
     expect(Models::Brand[1]).to eq subject
   end
+
+  context 'scopes' do
+    it '#by_name' do
+      chev = Models::Brand.create(name: 'Chevrolet')
+
+      expect(Models::Brand.by_name('Chevrolet')).to eq chev
+    end
+  end
 end

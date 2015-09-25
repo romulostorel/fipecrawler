@@ -16,4 +16,12 @@ describe Models::Vehicle do
 
     expect(Models::Vehicle[1]).to eq subject
   end
+
+  context 'scopes' do
+    it '#by_name' do
+      uni = Models::Vehicle.create(name: 'Uno')
+
+      expect(Models::Vehicle.by_name('Uno')).to eq uni
+    end
+  end
 end

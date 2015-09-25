@@ -3,6 +3,10 @@ module Models
     set_allowed_columns :id, :name, :type
 
     one_to_many :vehicles
+
+    def self.by_name(name)
+      where(name: name).first
+    end
   end
 
   class Vehicle < Sequel::Model
@@ -10,6 +14,10 @@ module Models
 
     many_to_one :brand
     one_to_many :vehicle_years
+
+    def self.by_name(name)
+      where(name: name).first
+    end
   end
 
   class VehicleYear < Sequel::Model
@@ -20,5 +28,9 @@ module Models
 
   class Reference < Sequel::Model
     set_allowed_columns :id, :code, :label
+
+    def self.by_label(label)
+      where(label: label).first
+    end
   end
 end
